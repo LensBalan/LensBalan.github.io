@@ -5,9 +5,9 @@ function Resumo(){
     const navigate = useNavigate();
     return (
         <div className="boas-vindas">
-            <h1 id='lens' className='fonte-titulos'>Opa, Eu sou o Leonardo Balan <br/> mais conhecido como <span className="lens-text">Lens!</span></h1>
+            <h1 id='lens' className='fonte-titulos texto-bounce'>Opa, Eu sou o Leonardo Balan <br/> mais conhecido como <span className="lens-text">Lens!</span></h1>
             <div className="div-flex">
-                <h2 className='fonte-titulos'>Seja Bem Vindo ao meu Portfólio Dev<span id='noefects'>👍</span></h2>   
+                <h2 className='fonte-titulos pra_cima'>Seja Bem Vindo ao meu Portfólio Dev<span id='noefects'>👍</span></h2>   
                 <div class="wrapper">
                     <img alt="Foto do Lens" src="/src/assets/ft.jpg" className="imagem-lens"></img>
                 </div> 
