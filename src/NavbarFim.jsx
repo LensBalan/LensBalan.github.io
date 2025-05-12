@@ -1,3 +1,5 @@
+import './css/Navbars.css'
+
 function NavbarFim(){
     return(
         <div >

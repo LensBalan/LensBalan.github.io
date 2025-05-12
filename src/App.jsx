@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import './App.css'
+import './css/App.css'
+import './css/Animations.css'
 import Navbar from './Navbar.jsx'
 import Resumo from './Resumo.jsx'
 import Contato from './Contato.jsx'
@@ -8,6 +8,7 @@ import NavbarFim from './NavbarFim.jsx'
 import Artigos from './Artigos.jsx'
 import Tecnologias from './Tecnologias.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollTela from './ScrollTela.jsx';
 
 function PaginaPrincipal() {
   return (

@@ -1,0 +1,132 @@
+.navbar-linha {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2.3vh; /* 2% da altura em cima/baixo e 5% da largura nas laterais */
+  justify-content:space-between; /*identação esquerda, meio e direita */
+  z-index: 10;
+  
+ background-color: rgba(50, 136, 69, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.navbar-fim {
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  bottom: 0;
+  width: 100%;
+  padding: 3vh 2.5vh;
+  justify-content: center;
+
+  background-color: #8EB897;
+}
+
+.conteudo-dropdown {
+  position: absolute; /*não deixa sair de dentro da navbar qnd abre */
+  right: 0;
+  margin-top: 12px;
+  background-color: white;
+  min-width: 140px;
+  text-align: left;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.conteudo-dropdown a { 
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size:14px;
+}
+
+.dropbtn { /*configs do botão menu */
+  border: none;
+  font-size: 1rem;
+  cursor: pointer; /* cursor vira maozinha */
+  transition: transform 0.8 ease;
+  padding: 2.8px 15px;
+}
+.dropbtn:hover{
+  transform: scale(1.1);
+}
+
+.logo{
+  width: 45px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 3vh;
+  transition: transform 0.3s ease;
+}
+.logo:hover {
+  transform: scale(1.1) /*rotate3d(1, 0, 0, 180deg)*/;
+  transform: rotate(1turn);
+}
+
+.cor {
+  color: #ededed;
+  background: linear-gradient(145deg, #18331e, #3d7d53);
+  padding: 3px 9px;
+  border-radius: 5px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.modal-conteudo {
+  position: relative;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.modal-conteudo h2 {
+  background-color: #bebebe;
+  margin-bottom: 1vh;
+}
+.modal-conteudo ul {
+  margin-left: 2vh;
+  margin-right: 2vh;
+  text-align: justify;
+  padding-top: 5px;
+}
+.modal-conteudo li {
+  margin-bottom: 1vh;
+}
+.modal-conteudo h4 {
+  color: #333;
+}
+
+.modal-conteudo span {
+  color: #333;
+  font-weight: bold;
+}
+
+#fechar {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  cursor: pointer;
+  padding: 0.3px 10px;
+}

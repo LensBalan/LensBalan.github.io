@@ -1,6 +1,10 @@
+import './css/Projs_Tecs_Arts_Cont.css'
+import ScrollTela from './ScrollTela';
+
 function Contato(){
     return (
         <>
+        <ScrollTela>
             <div className="div-contato">
                 <h3 className="sub-titulos">Contate-me</h3>
             </div>
@@ -19,6 +23,7 @@ function Contato(){
                     <img alt="Meu instagram" src="/src/assets/instagram.png" className="icon"></img>
                 </a>
             </div>
+            </ScrollTela>
         </>
     );
 }

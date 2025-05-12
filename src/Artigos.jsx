@@ -1,6 +1,10 @@
+import './css/Projs_Tecs_Arts_Cont.css'
+import ScrollTela from './ScrollTela';
+
 function Artigos(){
     return(
         <>
+        <ScrollTela>
         <div className="div-contato">
             <h3 className="sub-titulos">Alguns Conhecimentos</h3>
         </div>
@@ -19,6 +23,7 @@ function Artigos(){
                     <div class="blob"></div>
                 </div>
         </div>
+        </ScrollTela>
     </>
     );
 }

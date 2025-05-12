@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom';
+import './css/Navbars.css'
 
 function Navbar(){
     const [abrirMenu, setabrirMenu] = useState(false);
@@ -29,8 +30,8 @@ function Navbar(){
                         <button onClick={() => setabrirMenu(!abrirMenu)} className='dropbtn fonte-titulos cor'>▼</button>
                         {abrirMenu && (
                             <div className='conteudo-dropdown'>
-                                <a onClick={irParaHome}>Página Principal</a>
-                                <a onClick={() => setMostrarModal(true)}>Sobre o site</a>
+                                <a onClick={irParaHome}>🏠 Página Principal</a>
+                                <a onClick={() => setMostrarModal(true)}>❔ Sobre o site</a>
                             </div>
                         )}
                     </div>
@@ -45,7 +46,7 @@ function Navbar(){
                         <ul className='fonte-texto'>
                             <li><span>Vite</span> como ferramenta de construção e servidor de desenvolvimento;</li>
                             <li><span>React</span> como framework/biblioteca;</li>
-                            <li><span>HTML</span>, <span>JavaScript</span> e <span>CSS(puro)</span>;</li>
+                            <li><span>JavaScript + HTML (JSX)</span> e <span>CSS (puro)</span>;</li>
                             <li><span>UIverse</span> para os modelos dos botões e cards dos projetos;</li>
                             <li><span>Freepik</span> para as fotos colocadas nos cards dos projetos.</li>
                             <li><span>Google Fonts</span> para as fontes do site;</li>
