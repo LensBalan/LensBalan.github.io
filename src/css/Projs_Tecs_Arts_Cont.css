@@ -37,7 +37,7 @@
   margin-top: 5vh;
   position: relative;
   width: 200px;
-  height: 260px;
+  height: 280px;
   border-radius: 14px;
   z-index: 5;
   overflow: hidden;
@@ -53,7 +53,7 @@
   top: 5px;
   left: 5px;
   width: 190px;
-  height: 250px;
+  height: 270px;
   z-index: 2;
   background: rgba(255, 255, 255, .95);
   backdrop-filter: blur(24px);
@@ -165,7 +165,7 @@
  }
  
  .button-projetos:hover .front {
-  transform: translateY(-6px);
+  transform: translateY(-7.5px);
   transition: transform
      250ms
      cubic-bezier(.3, .7, .4, 1.5);
@@ -260,10 +260,10 @@
   transform: translateX(-50%);
   background-color: black;
   color: white;
-  padding: 4px 8px;
+  padding: 4px 4px;
   border-radius: 4px;
   white-space: nowrap;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 
   visibility: hidden;
   opacity: 0;
@@ -274,4 +274,76 @@
 .tecno:hover .texto-tecnologia {
   visibility: visible;
   opacity: 0.9;
+}
+
+.frase-lens {
+  margin-top: 10vh;
+  text-align: center;
+   
+}
+
+.frase-lens .frase {
+  display: inline-block;
+  background-color: #bebebe;
+  border-radius: 5%;
+  padding: 6vh 4vh;
+  box-shadow: 0 10px 50px rgba(35, 33, 33, 0.25), 
+              0 6px 6px rgba(85, 80, 80, 0.22);
+  transition: border-radius 1s ease, box-shadow 0.5s ease, transform 0.5s ease;
+
+}
+
+.frase:hover {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+  color:#116026;
+  border-radius: 50%;
+}
+
+.modal-overlay-descricao {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.modal-conteudo-descricao {
+  position: relative;
+  background: white;
+  padding: 1.7rem;
+  border-radius: 10px;
+  max-width: 500px;
+  min-height: 200px;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.modal-conteudo-descricao p {
+  font-size:smaller;
+}
+
+.gmail-container {
+  position: relative;
+  display: inline-block;
+}
+
+.mostrar-contato {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  z-index: 10;
+  white-space: nowrap;
 }

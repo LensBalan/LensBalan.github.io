@@ -51,7 +51,7 @@
   transition: transform 0.3s ease, box-shadow 1s ease-in-out,  color 1.3s ease, border-radius 1.5s ease-out;
 }
 .pra_cima:hover {
-  transform: scale(1.05);
+  transform: scale(1.05) translateX(-10px);
   box-shadow: inset 0 0 0 25px #8EB897;
   border-radius: 16px;
   color: white;
@@ -94,6 +94,14 @@
     margin-right: 3vh;
     opacity: 1;
   }
+
+    .pra_cima:hover {
+      transform: none;
+      box-shadow: none;
+      border-radius: 0;
+      color: inherit;
+
+    }
 }
 
 .texto-bounce {
@@ -106,4 +114,5 @@
 
 #texto-resumo {
   font-size: 17px;
+  line-height: 1.5;
 }

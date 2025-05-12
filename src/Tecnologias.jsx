@@ -11,15 +11,13 @@ function Tecnologias(){
             <div className="div-tecnologias">
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="JavaScript" src="/src/assets/js.png"></img>
-                    <span className='texto-tecnologia'>JavaScript</span>
+                         <span className='texto-tecnologia'>JavaScript</span>
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="HTML" src="/src/assets/html-5.png"></img>
-                     <span className='texto-tecnologia'>HTML</span>
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="CSS" src="/src/assets/css-3.png"></img>
-                     <span className='texto-tecnologia'>CSS</span>
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="python" src="/src/assets/python.png"></img>
@@ -27,7 +25,6 @@ function Tecnologias(){
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="NodeJS" src="/src/assets/nodejs.png"></img>
-                     <span className='texto-tecnologia'>NodeJS</span>
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="React" src="/src/assets/react.svg"></img>
@@ -35,7 +32,6 @@ function Tecnologias(){
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="C" src="/src/assets/letra-c.png"></img>
-                     <span className='texto-tecnologia'>C</span>
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="PostgreSQL" src="/src/assets/postgre.png"></img>
@@ -43,8 +39,10 @@ function Tecnologias(){
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="Mysql" src="/src/assets/mysql.png"></img>
-                     <span className='texto-tecnologia'>Mysql</span>
                 </div>
+            </div>
+            <div className='frase-lens'>
+                <blockquote className='frase'>"Não fique se comparando aos outros, <br/> Evolua no seu tempo."</blockquote>
             </div>
             </ScrollTela>
         </>
