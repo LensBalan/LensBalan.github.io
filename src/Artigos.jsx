@@ -6,7 +6,7 @@ function Artigos(){
         <>
         <ScrollTela>
         <div className="div-contato" style={{marginBottom: '1.8rem'}}>
-            <h3 className="sub-titulos">📗Alguns Conhecimentos</h3>
+            <h3 className="sub-titulos" style={{marginTop:'1.8rem'}}>📗Alguns Conhecimentos</h3>
         </div>
         <div className="div-projetos">
             <div className="card">
@@ -14,7 +14,7 @@ function Artigos(){
                     <h4 className="projeto">Como Resolver exercícios em JavaScript no Becrowd</h4>
                     <img className="img-projetos" alt="Conhecimento 1" src="/src/assets/becrowd.png"></img>
                     <br/>
-                    <button onClick={() => alert("Aba em construção...")} className="button-github">
+                    <button onClick={() => alert("Artigo em Desenvolvimento...")} className="button-github" style={{marginTop: '0.3rem'}}>
                     Ver 
                     </button>              
                 </div>
@@ -26,7 +26,7 @@ function Artigos(){
                     <img className="img-projetos" alt="conhecimento 2" src="/src/assets/cc.png"></img>
                     <br/>
                     <a href="/src/assets/TCC_Final_Leonardo_Balan.pdf" target="_blank">
-                        <button className="button-github">Ver</button>       
+                        <button className="button-github" style={{marginTop: '0.3rem'}}>Ver</button>       
                     </a>       
                 </div>
                 <div class="blob"></div>

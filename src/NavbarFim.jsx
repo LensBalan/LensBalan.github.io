@@ -5,7 +5,7 @@ function NavbarFim(){
         <div >
             <nav>
                 <div className="navbar-fim">
-                    <h4>©Developed by Lens </h4>
+                    <h5>©Developed by Lens </h5>
                 </div>
             </nav>
         </div>

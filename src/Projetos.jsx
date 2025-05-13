@@ -10,7 +10,7 @@ function Projetos(){
     const [abrirDescricao5, setAbrirDescricao5] = useState(false);
     const [abrirDescricao6, setAbrirDescricao6] = useState(false);
     const [abrirDescricao7, setAbrirDescricao7] = useState(false);
-    
+    const [abrirDescricao8, setAbrirDescricao8] = useState(false);
     return(
         <>
         <ScrollTela>
@@ -211,7 +211,34 @@ function Projetos(){
                 </div>
                 <div className="card">
                     <div class="bg bg_projeto">
-                        <h4 className="projeto titulo-projeto">Para Todos os meus Projetos📁</h4>
+                        <h4 className="projeto titulo-projeto">Projeto 8</h4>
+                        <h4 className="projeto">Paralelização de Códigos em C</h4>
+                        <img className="img-projetos" alt="Projeto 8" src="/src/assets/paralel.png"></img>
+                        <br/>
+                        <button onClick={() => setAbrirDescricao8(true)} className='button-projetos'> 
+                            <span class="shadow"></span>
+                            <span class="edge"></span>
+                            <span class="front">Descrição</span>
+                        </button>
+                        {abrirDescricao8 && (
+                            <div className='modal-overlay-descricao' onClick={() => setAbrirDescricao8(false)}> 
+                                <div className='modal-conteudo-descricao' onClick={e => e.stopPropagation()}>
+                                    <button id='fechar' onClick={() => setAbrirDescricao8(false)}>X</button>
+                                    <p>3 problemas da computação paralelizados com OpenMP e MPI. Estavam implementados sequencialmente.</p>
+                                </div>
+                            </div>
+                        )}
+                        <a href="https://github.com/LensBalan/Paralelizacao-de-Codigos-em-C" target="_blank">
+                            <button className="button-github" style={{marginTop:'1.2vh'}}>
+                            Ver projeto no Github
+                            </button>
+                        </a>                
+                    </div>
+                    <div class="blob"></div>
+                </div>
+                <div className="card">
+                    <div class="bg bg_projeto">
+                        <h4 className="projeto titulo-projeto">Todos os meus Projetos📁</h4>
                          <h4 className="projeto" style={{marginTop:'0.5rem'}}>Repositório Github Lens</h4>
                         <img className="img-projetos" alt="Projeto 7" src="/src/assets/gitlens.jpg"></img>
                         <br/>
