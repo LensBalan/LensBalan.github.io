@@ -1,13 +1,13 @@
 .boas-vindas {
   text-align: center;
-  margin-top: 2vh;
+  margin-top: 0.85rem;
 }
 .boas-vindas h1 {
-  margin-bottom: 3vh;  
+  margin-bottom: 1.3rem;  
 }
 .boas-vindas h3 {
-  margin-top: 10vh;
-  margin-bottom: 3vh;
+  margin-top: 5rem;
+  margin-bottom: 1.3rem;
 }
 .boas-vindas p {
   text-align: justify;
@@ -37,7 +37,7 @@
   justify-content: center; /* Centraliza tudo no eixo horizontal */
   align-items: center; /* Espaço entre texto e imagem */
   flex-wrap: wrap; /* Mantém responsividade */
-  margin-left: 17vh;
+  margin-left: 6.5rem;
 
 }
 .div-flex h2 {
@@ -46,7 +46,7 @@
 }
 
 .pra_cima {
-  margin-bottom: 3.5vh;
+  margin-bottom: 1.6rem;
   font-size: 30px;
   transition: transform 0.3s ease, box-shadow 1s ease-in-out,  color 1.3s ease, border-radius 1.5s ease-out;
 }
@@ -71,7 +71,7 @@
   height: 170px;
   width: 170px;
   border-radius: 50%;
-  margin-left: 1vh; 
+  margin-left: 0.4rem; 
   box-shadow: 50px 0px 50px #a8d3b1;
   transition: transform 0.5s ease;
 }
@@ -85,13 +85,13 @@
     .div-flex {
     flex-direction: column;
     align-items: center;
-    margin-top: 5vh;
-    margin-right: 15vh;
+    margin-top: 2.3rem;
+    margin-right: 5rem;
   }
 
     .imagem-lens {
-    margin-top: 5vh;
-    margin-right: 3vh;
+    margin-top: 1.5rem;
+    margin-right: 1.2rem;
     opacity: 1;
   }
 
@@ -109,7 +109,7 @@
 }
 
 .resumo {
-  margin-top: 6vw;
+  margin-top: 3.5rem;
 }
 
 #texto-resumo {

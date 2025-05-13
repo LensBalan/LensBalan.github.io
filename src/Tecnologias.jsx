@@ -6,7 +6,7 @@ function Tecnologias(){
         <>
         <ScrollTela>
             <div className="div-contato">
-                <h3 className="sub-titulos">Tecnologias já Trabalhadas</h3>
+                <h3 className="sub-titulos">⚙️Tecnologias já Trabalhadas</h3>
             </div>
             <div className="div-tecnologias">
                 <div className='tecno'>
@@ -39,6 +39,10 @@ function Tecnologias(){
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="Mysql" src="/src/assets/mysql.png"></img>
+                </div>
+                <div className='tecno'>
+                    <img className="ft-tecnologias" alt="Vite" src="/src/assets/vite.svg"></img>
+                     <span className='texto-tecnologia'>Vite</span>
                 </div>
             </div>
             <div className='frase-lens'>

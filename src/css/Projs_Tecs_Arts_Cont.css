@@ -1,40 +1,31 @@
 .div-contato {
-  margin-top: 10vh;
+  margin-top: 4.35rem;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 .div-contato-images {
-  margin-top: 3vh;
+  margin-top: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2vh;
+  gap: 0.8rem;
 }
 
 .div-projetos {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
   flex-wrap: wrap;
-  gap: 5vh;
+  gap: 2.3rem;
   justify-content: center;
-}
-
-@media (max-width: 768px){
-  
-  .div-projetos {
-    flex: 45%;
-  }
-
-   .ft-tecnologias {
-    flex: 1 1 22%; /* até 4 por linha */
-    margin-top: 2vh;
-  }
 }
 
 /* From Uiverse.io by dylanharriscameron */ 
 .card {
-  margin-top: 5vh;
+  margin-top: 0.8rem;
   position: relative;
   width: 200px;
   height: 280px;
@@ -85,7 +76,7 @@
 }
 
 .projeto {
-  margin-bottom: 0.7vh;
+  margin-bottom: 0.3rem;
 }
 
 .titulo-projeto {
@@ -99,7 +90,7 @@
   height: 100px;
   border-radius: 30%;
   border: 3px solid #2B6E2D;
-  margin-bottom: 1vh;
+  margin-bottom: 0.4rem;
 }
 
 /* From Uiverse.io by cssbuttons-io */ 
@@ -220,9 +211,9 @@
  }
 
  .div-tecnologias{
-  margin-top: 5vh;
+  margin-top: 2.2rem;
   display: flex;
-  gap: 4vh;
+  gap: 1.6rem;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -277,7 +268,7 @@
 }
 
 .frase-lens {
-  margin-top: 10vh;
+  margin-top: 4.5rem;
   text-align: center;
    
 }
@@ -285,8 +276,9 @@
 .frase-lens .frase {
   display: inline-block;
   background-color: #bebebe;
-  border-radius: 5%;
-  padding: 6vh 4vh;
+  font-size: 14px;
+  border-radius: 50%;
+  padding: 1.8rem 1.8rem;
   box-shadow: 0 10px 50px rgba(35, 33, 33, 0.25), 
               0 6px 6px rgba(85, 80, 80, 0.22);
   transition: border-radius 1s ease, box-shadow 0.5s ease, transform 0.5s ease;
@@ -297,7 +289,7 @@
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
   transform: scale(1.1);
   color:#116026;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 .modal-overlay-descricao {
@@ -327,6 +319,7 @@
 
 .modal-conteudo-descricao p {
   font-size:smaller;
+  color:#333333;
 }
 
 .gmail-container {
@@ -334,16 +327,97 @@
   display: inline-block;
 }
 
-.mostrar-contato {
+.mostrar-contato-gmail {
   position: absolute;
-  top: -30px;
+  top: -33px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-40%);
   background-color: white;
   padding: 2px 6px;
   border-radius: 4px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   font-size: 14px;
-  z-index: 10;
+  z-index: 4;
   white-space: nowrap;
+}
+
+.mostrar-contato-wats {
+  position: absolute;
+  top: -33px;
+  left: 29%;
+  transform: translateX(-40%);
+  background-color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  z-index: 4;
+  white-space: nowrap;
+}
+
+#fechar-gmail {
+  position: absolute;
+  top: -45px;
+  left: 307%;
+  cursor: pointer;
+  padding: 0.8px 8px;
+  z-index: 5;
+}
+
+#fechar-wats {
+  position: absolute;
+  top: -45px;
+  left: -145%;
+  cursor: pointer;
+  padding: 0.8px 8px;
+  z-index: 5;
+}
+
+@media (max-width: 700px){
+
+  .mostrar-contato-gmail {
+    top: -25px;
+    left: 10%;
+    transform: translateX(-50%);
+    font-size: 10px;
+    padding: 1px 1px;
+  }
+
+  .mostrar-contato-wats {
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10px;
+    padding: 1px 1px;
+  }
+
+  #fechar-gmail {
+    top: -47px;
+    left: 136%;
+    font-size: 10px;
+    transform: translateX(-50%);
+    padding: 1px 3px;
+  }
+
+  #fechar-wats {
+    position: absolute;
+    top: -46px;
+    font-size: 10px;
+    left: -37%;
+    padding: 1px 3px;
+  }
+} 
+
+@media (max-width: 768px){
+  
+  .div-projetos {
+    flex: 45%;
+  }
+
+   .ft-tecnologias {
+    flex: 1 1 22%; /* até 4 por linha */
+    margin-top: 0.5rem;
+  }
+
+  
 }

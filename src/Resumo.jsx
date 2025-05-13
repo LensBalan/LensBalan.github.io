@@ -16,7 +16,7 @@ function Resumo(){
             </div>
              
             <div className='resumo'>
-                <h3 className='sub-titulos'>Resumo sobre mim:</h3>
+                <h3 className='sub-titulos'>📑Resumo sobre mim</h3>
                 <p id='texto-resumo'className='fonte-texto' style={{marginBottom: '1vh', marginTop: '4vh'}}>Tenho 22 anos, sou natural de Roncador–PR e me mudei para Cascavel em 2017, onde iniciei minha jornada no mundo da Computação. Formei-me como Técnico em Informática pelo IFPR (2017–2021). Em seguida, fui aprovado no vestibular na primeira tentativa e atualmente estou concluindo a graduação em Bacharelado em Ciência da Computação pela Unioeste (2021–2025).
 Em ambas as instituições, explorei, testei e solucionei problemas em diversas áreas da Computação, adquirindo uma boa compreensão tanto da teoria quanto da prática, utilizando as tecnologias disponíveis de cada campo. Atuei em áreas como Banco de Dados, Estruturas de Dados, Redes de Computadores, Inteligência Artificial, Computação em Nuvem, Engenharia de Software, Aprendizado de Máquina, entre outras.
 Ao longo desses anos, tive contato com diversas tecnologias, cuja experiência detalho melhor em uma página individual — é só clicar no botão abaixo.

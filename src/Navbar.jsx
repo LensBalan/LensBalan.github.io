@@ -51,6 +51,7 @@ function Navbar(){
                             <li><span>Freepik</span> para as fotos colocadas nos cards dos projetos.</li>
                             <li><span>Google Fonts</span> para as fontes do site;</li>
                             <li><span>Flaticon</span> para os icones das tecnologias;</li>
+                            <li><span>Piliapp</span> para os emojis utilizados;</li>
                         </ul>
                     </div>
                 </div>
