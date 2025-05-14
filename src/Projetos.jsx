@@ -21,7 +21,7 @@ function Projetos(){
                 <div className="card">
                     <div class="bg bg_projeto">
                         <h4 className="titulo-projeto">Projeto 1</h4>
-                        <h4 className="sub-titulo-projeto">Lista de Tarefas com JS</h4>
+                        <h4 className="sub-titulo-projeto">Lista de Tarefas em JS</h4>
                         <img className="img-projetos" alt="Projeto 1" src="/src/assets/lista.jpg"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao(true)} className='button-projetos'> 
@@ -49,7 +49,7 @@ function Projetos(){
                 <div className="card">
                     <div class="bg bg_projeto">
                         <h4 className="titulo-projeto">Projeto 2</h4>
-                        <h4 className="sub-titulo-projeto">Problemas do Becrowd com JS</h4>
+                        <h4 className="sub-titulo-projeto">Problemas do Becrowd em JS</h4>
                         <img className="img-projetos" alt="Projeto 2" src="/src/assets/bee.png"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao2(true)} className='button-projetos'> 

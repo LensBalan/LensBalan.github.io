@@ -48,7 +48,7 @@ function Navbar(){
                             <li><span>React</span> como framework/biblioteca;</li>
                             <li><span>JavaScript + HTML (JSX)</span> e <span>CSS (puro)</span>;</li>
                             <li><span>UIverse</span> para os modelos dos botões e cards dos projetos;</li>
-                            <li><span>Freepik</span> para as fotos colocadas nos cards dos projetos.</li>
+                            <li><span>Freepik</span> para algumas das fotos colocadas nos cards dos projetos.</li>
                             <li><span>Google Fonts</span> para as fontes do site;</li>
                             <li><span>Flaticon</span> para os icones das tecnologias;</li>
                             <li><span>Piliapp</span> para os emojis utilizados;</li>

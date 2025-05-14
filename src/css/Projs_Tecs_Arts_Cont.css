@@ -76,7 +76,7 @@
 }
 
 .titulo-projeto {
-  font-size: 1.3em;
+  font-size: 1.28em;
   background-color: #bebebe;
   border-radius: 5%;
   color: #116026;
@@ -86,7 +86,7 @@
 .sub-titulo-projeto {
   font-size: 1.15em;
   margin-bottom: 0.35rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .fundo-artigos {
