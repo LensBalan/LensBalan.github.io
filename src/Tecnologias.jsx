@@ -6,7 +6,7 @@ function Tecnologias(){
         <>
         <ScrollTela>
             <div className="div-contato">
-                <h3 className="sub-titulos" style={{marginTop:'1.9rem'}}>⚙️Tecnologias já Trabalhadas</h3>
+                <h3 className="sub-titulos" style={{marginTop:'1.85rem'}}>⚙️Tecnologias já Trabalhadas</h3>
             </div>
             <div className="div-tecnologias">
                 <div className='tecno'>
@@ -78,7 +78,7 @@ function Tecnologias(){
                 </div>
             </div>
             <div className='frase-lens'>
-                <blockquote className='frase'>"Não fique se comparando aos outros, <br/> Evolua no seu tempo."</blockquote>
+                <blockquote className='frase'>"Não fique se comparando aos outros, <br/> evolua no seu tempo."</blockquote>
             </div>
             </ScrollTela>
         </>

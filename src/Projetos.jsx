@@ -14,14 +14,14 @@ function Projetos(){
     return(
         <>
         <ScrollTela>
-            <div className="div-contato" style={{marginBottom: '1.7rem'}}>
+            <div className="div-contato" style={{marginBottom: '1.6rem'}}>
                 <h3 className="sub-titulos">🧑‍💻Meus Projetos</h3>
             </div>
             <div className="div-projetos">
                 <div className="card">
                     <div class="bg bg_projeto">
-                        <h4 className="projeto titulo-projeto">Projeto 1</h4>
-                        <h4 className="projeto">Lista de Tarefas com JS</h4>
+                        <h4 className="titulo-projeto">Projeto 1</h4>
+                        <h4 className="sub-titulo-projeto">Lista de Tarefas com JS</h4>
                         <img className="img-projetos" alt="Projeto 1" src="/src/assets/lista.jpg"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao(true)} className='button-projetos'> 
@@ -35,9 +35,9 @@ function Projetos(){
                                     <button id='fechar' onClick={() => setAbrirDescricao(false)}>X</button>
                                     <p>Projeto implementado com HTML, CSS(Bootstrap) e JS, quando eu estava me familiarizando com a Programação WEB.</p>
                                 </div>
-
                             </div>
                         )}
+                        <br/>
                         <a href="https://github.com/LensBalan/Lista-de-Tarefas" target="_blank">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
@@ -48,8 +48,8 @@ function Projetos(){
                 </div>
                 <div className="card">
                     <div class="bg bg_projeto">
-                        <h4 className="projeto titulo-projeto">Projeto 2</h4>
-                        <h4 className="projeto">Problemas do Becrowd com JS</h4>
+                        <h4 className="titulo-projeto">Projeto 2</h4>
+                        <h4 className="sub-titulo-projeto">Problemas do Becrowd com JS</h4>
                         <img className="img-projetos" alt="Projeto 2" src="/src/assets/bee.png"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao2(true)} className='button-projetos'> 
@@ -66,6 +66,7 @@ function Projetos(){
 
                             </div>
                         )}
+                        <br/>
                         <a href="" target="_blank">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
@@ -76,8 +77,8 @@ function Projetos(){
                 </div>
                 <div className="card">
                     <div class="bg bg_projeto">
-                        <h4 className="projeto titulo-projeto">Projeto 3</h4>
-                        <h4 className="projeto">Fill Poly - Preencher Polígonos</h4>
+                        <h4 className="titulo-projeto">Projeto 3</h4>
+                        <h4 className="sub-titulo-projeto">Fill Poly - Preencher Polígonos</h4>
                         <img className="img-projetos" alt="Projeto 3" src="/src/assets/poligonos.jpg"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao3(true)} className='button-projetos'> 
@@ -93,6 +94,7 @@ function Projetos(){
                                 </div>
                             </div>
                         )}
+                        <br/>
                         <a href="https://github.com/LensBalan/Fill-poly" target="_blank">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
@@ -103,8 +105,8 @@ function Projetos(){
                 </div>
                 <div className="card">
                     <div class="bg bg_projeto">
-                        <h4 className="projeto titulo-projeto">Projeto 4</h4>
-                        <h4 className="projeto">Buscador de Repositórios GitHub</h4>
+                        <h4 className="titulo-projeto">Projeto 4</h4>
+                        <h4 className="sub-titulo-projeto">Buscador de Repositórios GitHub</h4>
                         <img className="img-projetos" alt="Projeto 4" src="/src/assets/git.jpg"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao4(true)} className='button-projetos'> 
@@ -120,6 +122,7 @@ function Projetos(){
                                 </div>
                             </div>
                         )}
+                        <br/>
                         <a href="https://github.com/LensBalan/Buscar-Repositorios-Github" target="_blank">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
@@ -130,8 +133,8 @@ function Projetos(){
                 </div>
                 <div className="card">
                     <div class="bg bg_projeto">
-                        <h4 className="projeto titulo-projeto">Projeto 5</h4>
-                        <h4 className="projeto">Conversor String to Int em Assembly</h4>
+                        <h4 className="titulo-projeto">Projeto 5</h4>
+                        <h4 className="sub-titulo-projeto">Conversor String to Int em Assembly</h4>
                         <img className="img-projetos" alt="Projeto 5" src="/src/assets/assembly.jpg"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao5(true)} className='button-projetos'> 
@@ -147,6 +150,7 @@ function Projetos(){
                                 </div>
                             </div>
                         )}
+                        <br/>
                         <a href="https://github.com/LensBalan/ConvertStringtoInt" target="_blank">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
@@ -157,8 +161,8 @@ function Projetos(){
                 </div>
                 <div className="card">
                     <div class="bg bg_projeto">
-                        <h4 className="projeto titulo-projeto">Projeto 6</h4>
-                        <h4 className="projeto">Algs. de Regressão - A. de Máquina</h4>
+                        <h4 className="titulo-projeto">Projeto 6</h4>
+                        <h4 className="sub-titulo-projeto">Algs. de Regressão - A. de Máquina</h4>
                         <img className="img-projetos" alt="Projeto 6" src="/src/assets/regressao.jpg"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao6(true)} className='button-projetos'> 
@@ -174,6 +178,7 @@ function Projetos(){
                                 </div>
                             </div>
                         )}
+                        <br/>
                         <a href="https://github.com/LensBalan/Metodos-de-Regressao" target="_blank">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
@@ -184,8 +189,8 @@ function Projetos(){
                 </div>
                 <div className="card">
                     <div class="bg bg_projeto">
-                        <h4 className="projeto titulo-projeto">Projeto 7</h4>
-                        <h4 className="projeto">Leitor de imagens Fat-16 em C</h4>
+                        <h4 className="titulo-projeto">Projeto 7</h4>
+                        <h4 className="sub-titulo-projeto">Leitor de imagens Fat-16 em C</h4>
                         <img className="img-projetos" alt="Projeto 7" src="/src/assets/fat16.jpg"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao7(true)} className='button-projetos'> 
@@ -201,6 +206,7 @@ function Projetos(){
                                 </div>
                             </div>
                         )}
+                        <br/>
                         <a href="https://github.com/LensBalan/Leitor-FAT16" target="_blank">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
@@ -211,8 +217,8 @@ function Projetos(){
                 </div>
                 <div className="card">
                     <div class="bg bg_projeto">
-                        <h4 className="projeto titulo-projeto">Projeto 8</h4>
-                        <h4 className="projeto">Paralelização de Códigos em C</h4>
+                        <h4 className="titulo-projeto">Projeto 8</h4>
+                        <h4 className="sub-titulo-projeto">Paralelização de Códigos em C</h4>
                         <img className="img-projetos" alt="Projeto 8" src="/src/assets/paralel.png"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao8(true)} className='button-projetos'> 
@@ -228,6 +234,7 @@ function Projetos(){
                                 </div>
                             </div>
                         )}
+                        <br/>
                         <a href="https://github.com/LensBalan/Paralelizacao-de-Codigos-em-C" target="_blank">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
@@ -238,12 +245,12 @@ function Projetos(){
                 </div>
                 <div className="card">
                     <div class="bg bg_projeto">
-                        <h4 className="projeto titulo-projeto">Todos os meus Projetos📁</h4>
-                         <h4 className="projeto" style={{marginTop:'0.5rem'}}>Repositório Github Lens</h4>
+                        <h4 className="titulo-projeto">Meus Projetos📁</h4>
+                         <h4 className="sub-titulo-projeto" style={{marginTop:'0.55rem'}}>Todos no Repositório Github Lens</h4>
                         <img className="img-projetos" alt="Projeto 7" src="/src/assets/gitlens.jpg"></img>
                         <br/>
                         <a href="https://github.com/LensBalan" target="_blank">
-                            <button className="button-github" style={{marginTop:'0.2rem'}}>
+                            <button className="button-github" style={{marginTop:'0.7rem'}}>
                            Ir
                             </button>
                         </a>                

@@ -22,7 +22,7 @@ function Resumo(){
                 <button className='buttons' onClick={() => alert("Aba em Desenvolvimento...")}/*onClick={() => navigate('/sobre')}*/>
                     <span class="transition"></span>
                     <span class="gradient"></span>
-                    <span class="label ">+ Sobre mim</span> 
+                    <span class="label">+ Sobre mim</span> 
                 </button>
             </div>
             </ScrollTela>

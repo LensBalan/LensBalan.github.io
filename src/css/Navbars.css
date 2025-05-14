@@ -48,22 +48,22 @@
   font-size:14px;
 }
 
-.dropbtn { /*configs do botão menu */
+.dropbtn { 
   border: none;
   font-size: 1rem;
   cursor: pointer; /* cursor vira maozinha */
   transition: transform 0.8 ease;
-  padding: 2.8px 15px;
+  width: 2.5rem;
 }
 .dropbtn:hover{
   transform: scale(1.1);
 }
 
 .logo{
-  width: 45px;
+  width: 50px;
   height: 35px;
   border-radius: 50%;
-  /*margin-right: 2vh; */
+  margin-right: 0.3rem; 
   transition: transform 0.3s ease;
 }
 .logo:hover {

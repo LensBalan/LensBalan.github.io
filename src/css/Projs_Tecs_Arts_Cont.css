@@ -6,7 +6,7 @@
   text-align: center;
 }
 .div-contato-images {
-  margin-top: 1.5rem;
+  margin-top: 1.87rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,8 +27,8 @@
 .card {
   margin-top: 0.8rem;
   position: relative;
-  width: 200px;
-  height: 280px;
+  width: 240px;
+  height: 320px;
   border-radius: 14px;
   z-index: 5;
   overflow: hidden;
@@ -36,15 +36,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  box-shadow: 20px 20px 60px #bebebe, -1px -1px 50px #ffffff;
 }
 
 .bg {
   position: absolute;
   top: 5px;
   left: 5px;
-  width: 190px;
-  height: 270px;
+  width: 230px;
+  height: 310px;
   z-index: 2;
   background: rgba(255, 255, 255, .95);
   backdrop-filter: blur(24px);
@@ -60,8 +60,8 @@
   z-index: 1;
   top: 50%;
   left: 50%;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 190px;
   border-radius: 50%;
   background-color: #2B6E2D;
   opacity: 1;
@@ -75,22 +75,33 @@
   align-items: center;
 }
 
-.projeto {
-  margin-bottom: 0.3rem;
-}
-
 .titulo-projeto {
+  font-size: 1.3em;
   background-color: #bebebe;
   border-radius: 5%;
   color: #116026;
+  margin-bottom: 0.3rem;
+}
+
+.sub-titulo-projeto {
+  font-size: 1.15em;
+  margin-bottom: 0.35rem;
+  font-weight: 700;
+}
+
+.fundo-artigos {
+  background-color: #bebebe;
+  border-radius: 5%;
+  margin-bottom: 1.5rem;
 }
 
 .img-projetos {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 30%;
   border: 3px solid #2B6E2D;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.45rem;
+  opacity: 0.9;
 }
 
 /* From Uiverse.io by cssbuttons-io */ 
@@ -98,12 +109,14 @@
   position: relative;
   border: none;
   background: transparent;
-  padding: 0;
+  padding: 0.03rem;
   cursor: pointer;
   outline-offset: 4px;
   transition: filter 250ms;
   user-select: none;
   touch-action: manipulation;
+  margin-bottom: 0.05rem;
+  font-size: 0.95rem;
  }
 
  .shadow {
@@ -140,7 +153,7 @@
  .front {
   display: block;
   position: relative;
-  padding: 3px 5px;
+  padding: 5px 10px;
   border-radius: 12px;
   color: #2B6E2D;
   background: #bebebe;
@@ -184,7 +197,7 @@
  }
 
  .button-github {
-  width: 130px;
+  width: 150px;
   height: 40px;
   cursor: pointer;
   background-color: #bebebe;
@@ -192,6 +205,7 @@
   border: none;
   border-radius: 5px;
   transition: all .4s;
+  font-size: 0.95rem;
  }
  
  .button-github:hover {
@@ -211,10 +225,10 @@
  }
 
  .div-tecnologias{
-  margin-top: 2.2rem;
+  margin-top: 2.65rem;
   display: flex;
   gap: 1.6rem;
-  max-width: 800px;
+  max-width: 900px;
   justify-content: center;
   flex-wrap: wrap;
   margin-left: auto;
@@ -222,15 +236,28 @@
 }
 
 .ft-tecnologias{
-  width: 70px;
-  height: 70px;
-  transition: transform 0.3s ease;
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0px -18px 60px #ffffff;
-  max-width: 70px;
-  max-height: 70px;
+  max-width: 100px;
+  max-height: 100px;
+
+  /* Moldura simulada */
+  background-color: #ffffff; 
+  padding: 1rem;             
+  border: 2px solid #557c51;    
+  border-radius: 0.8rem;    
+
+  box-shadow: 
+    4px 4px 10px rgba(45, 104, 45, 0.1),  
+    -2px -2px 5px rgba(255, 255, 255, 0.6); 
 }
 .ft-tecnologias:hover{
   transform: scale(1.2);
+  box-shadow: 
+    6px 6px 15px rgba(0, 0, 0, 0.3),
+    -2px -2px 5px rgba(255, 255, 255, 0.6);
 }
 
 .icon{
@@ -271,7 +298,7 @@
 }
 
 .frase-lens {
-  margin-top: 4.5rem;
+  margin-top: 3.8rem;
   text-align: center;
    
 }
@@ -279,20 +306,17 @@
 .frase-lens .frase {
   display: inline-block;
   background-color: #bebebe;
-  font-size: 14px;
-  border-radius: 50%;
-  padding: 1.8rem 1.8rem;
+  font-size: 0.98rem;
+  padding: 1.7rem 1.7rem;
   box-shadow: 0 10px 50px rgba(35, 33, 33, 0.25), 
               0 6px 6px rgba(85, 80, 80, 0.22);
   transition: border-radius 1s ease, box-shadow 0.5s ease, transform 0.5s ease;
-
 }
 
 .frase:hover {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
   transform: scale(1.1);
   color:#116026;
-  border-radius: 40%;
 }
 
 .modal-overlay-descricao {
