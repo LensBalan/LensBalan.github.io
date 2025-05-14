@@ -98,3 +98,20 @@ h3 {
   opacity: 1;
   transform: none;
 }
+
+@media (max-width: 768px){
+  
+  h3{
+    font-size: 1.55rem;
+    flex-wrap: wrap;
+  }
+
+  .buttons {
+  font-size: 1rem;
+  padding: 0.35em 0.8em;
+  font-weight: 500;
+  border-radius: 1em;
+
+}
+
+}

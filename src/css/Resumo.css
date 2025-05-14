@@ -81,6 +81,35 @@
   transform: scale(1.2) rotate(2deg);
 }
 
+
+@media (max-width: 768px) {
+
+  #lens {
+     font-size: 2.8rem;
+     margin-top: -1.8rem;
+  }
+
+  .pra_cima {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+  }
+
+  #texto-resumo {
+  text-indent: 0em !important;
+  font-size: 1rem !important; 
+}
+
+.texto-sublinado {
+   font-size: 1rem !important;
+}
+
+.boas-vindas p {
+  margin-left: 11vw;
+  margin-right: 11vw;
+}
+
+}
+
 @media (max-width: 1000px) {
     
     .div-flex {
@@ -97,14 +126,11 @@
     margin-bottom: -1.2rem;
   }
 
-
-
     .pra_cima:hover {
       transform: none;
       box-shadow: none;
       border-radius: 0;
       color: inherit;
-
     }
 }
 
