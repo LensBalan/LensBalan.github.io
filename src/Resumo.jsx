@@ -11,7 +11,7 @@ function Resumo(){
             <div className="div-flex">
                 <h2 className='fonte-titulos pra_cima'>Seja Bem Vindo ao meu Portfólio Dev<span id='noefects'>👍</span></h2>   
                 <div class="wrapper">
-                    <img alt="Foto do Lens" src="/src/assets/ft.jpg" className="imagem-lens"></img>
+                    <img alt="Foto do Lens" src="/images/ft.jpg" className="imagem-lens"></img>
                 </div> 
             </div>
              

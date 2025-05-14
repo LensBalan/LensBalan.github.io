@@ -8,7 +8,6 @@ import NavbarFim from './NavbarFim.jsx'
 import Artigos from './Artigos.jsx'
 import Tecnologias from './Tecnologias.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ScrollTela from './ScrollTela.jsx';
 
 function PaginaPrincipal() {
   return (

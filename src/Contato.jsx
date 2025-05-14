@@ -20,13 +20,13 @@ function Contato(){
                         </>
                      )}
                      <a onClick={() => setMostrarWats(!mostrarWats)} style={{cursor: 'pointer'}}>
-                         <img alt="Meu número de telefone/wats" src="/src/assets/wats.png" className="icon"></img>
+                         <img alt="Meu número de telefone/wats" src="/images/wats.png" className="icon"></img>
                     </a>
                     
                 </div>
                 
                 <a href="https://www.linkedin.com/in/leonardo-balan" target="_blank">
-                    <img alt="Meu Linkedin" src="/src/assets/linkedin.png" className="icon"></img>
+                    <img alt="Meu Linkedin" src="/images/linkedin.png" className="icon"></img>
                 </a>
                 <a href="/src/assets/Currículo.pdf" target="_blank">
                     <button className='buttons'>
@@ -36,7 +36,7 @@ function Contato(){
                     </button>
                 </a>
                 <a href="https://www.instagram.com/lens.balan" target="_blank">
-                    <img alt="Meu instagram" src="/src/assets/instagram.png" className="icon"></img>
+                    <img alt="Meu instagram" src="/images/instagram.png" className="icon"></img>
                 </a>
                 <div className="gmail-container">
                     {mostrarEmail && (
@@ -46,7 +46,7 @@ function Contato(){
                         </>
                     )}
                     <a onClick={() => setMostrarEmail(!mostrarEmail)} style={{ cursor: 'pointer' }}>
-                        <img alt="Meu gmail" src="/src/assets/gmail.png" className="icon" />
+                        <img alt="Meu gmail" src="/images/gmail.png" className="icon" />
                     </a>
                 </div>
                 </div>

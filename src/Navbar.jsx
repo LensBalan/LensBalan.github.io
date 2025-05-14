@@ -24,7 +24,7 @@ function Navbar(){
         <div>
             <nav>
                 <div className="navbar-linha">
-                    <img alt='Foto do Lens' src="/src/assets/Logo.png" className='logo'></img>
+                    <img alt='Foto do Lens' src="/images/Logo.png" className='logo'></img>
                     <h4 className='fonte-titulos cor'style={{marginLeft:'auto', marginRight:'auto'}}>Portfólio Dev</h4>
                     <div className='dropdown'>
                         <button onClick={() => setabrirMenu(!abrirMenu)} className='dropbtn fonte-titulos cor'>▼</button>

@@ -10,70 +10,70 @@ function Tecnologias(){
             </div>
             <div className="div-tecnologias">
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="JavaScript" src="/src/assets/js.png"></img>
+                    <img className="ft-tecnologias" alt="JavaScript" src="/images/js.png"></img>
                          <span className='texto-tecnologia'>JavaScript</span>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="HTML" src="/src/assets/html-5.png"></img>
+                    <img className="ft-tecnologias" alt="HTML" src="/images/html-5.png"></img>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="CSS" src="/src/assets/css-3.png"></img>
+                    <img className="ft-tecnologias" alt="CSS" src="/images/css-3.png"></img>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="NodeJS" src="/src/assets/nodejs.png"></img>
+                    <img className="ft-tecnologias" alt="NodeJS" src="/images/nodejs.png"></img>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="python" src="/src/assets/python.png"></img>
+                    <img className="ft-tecnologias" alt="python" src="/images/python.png"></img>
                      <span className='texto-tecnologia'>Python</span>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="C" src="/src/assets/letra-c.png"></img>
+                    <img className="ft-tecnologias" alt="C" src="/images/letra-c.png"></img>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="React" src="/src/assets/react.svg"></img>
+                    <img className="ft-tecnologias" alt="React" src="/images/react.svg"></img>
                      <span className='texto-tecnologia'>React</span>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="PostgreSQL" src="/src/assets/postgre.png"></img>
+                    <img className="ft-tecnologias" alt="PostgreSQL" src="/images/postgre.png"></img>
                      <span className='texto-tecnologia'>PostgreSQL</span>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="Mysql" src="/src/assets/mysql.png"></img>
+                    <img className="ft-tecnologias" alt="Mysql" src="/images/mysql.png"></img>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="Vite" src="/src/assets/vite.svg"></img>
+                    <img className="ft-tecnologias" alt="Vite" src="/images/vite.svg"></img>
                      <span className='texto-tecnologia'>Vite</span>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="Bootstrap" src="/src/assets/bootstrap.png"></img>
+                    <img className="ft-tecnologias" alt="Bootstrap" src="/images/bootstrap.png"></img>
                      <span className='texto-tecnologia'>Bootstrap</span>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="Jupyter Notebook" src="/src/assets/jupyter.png"></img>
+                    <img className="ft-tecnologias" alt="Jupyter Notebook" src="/images/jupyter.png"></img>
                      <span className='texto-tecnologia'>Jupyter Notebook</span>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="Assembly x64 Linux" src="/src/assets/assem.png"></img>
+                    <img className="ft-tecnologias" alt="Assembly x64 Linux" src="/images/assem.png"></img>
                      <span className='texto-tecnologia'>Assembly x64 Linux</span>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="Linux" src="/src/assets/linux.png"></img>
+                    <img className="ft-tecnologias" alt="Linux" src="/images/linux.png"></img>
                      <span className='texto-tecnologia'>Linux</span>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="Babel" src="/src/assets/babel.png"></img>
+                    <img className="ft-tecnologias" alt="Babel" src="/images/babel.png"></img>
                      <span className='texto-tecnologia'>Babel</span>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="Web Pack Server" src="/src/assets/webpack.png"></img>
+                    <img className="ft-tecnologias" alt="Web Pack Server" src="/images/webpack.png"></img>
                      <span className='texto-tecnologia'>Web Pack Server</span>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="Golang" src="/src/assets/go.png"></img>
+                    <img className="ft-tecnologias" alt="Golang" src="/images/go.png"></img>
                      <span className='texto-tecnologia'>Golang</span>
                 </div>
                 <div className='tecno'>
-                    <img className="ft-tecnologias" alt="Java" src="/src/assets/java.png"></img>
+                    <img className="ft-tecnologias" alt="Java" src="/images/java.png"></img>
                      <span className='texto-tecnologia'>Java</span>
                 </div>
             </div>
