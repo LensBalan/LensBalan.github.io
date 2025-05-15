@@ -31,7 +31,7 @@
 .conteudo-dropdown {
   position: absolute; /*não deixa sair de dentro da navbar qnd abre */
   right: 0;
-  margin-top: 12px;
+  margin-top: 0.75rem;
   background-color: white;
   min-width: 140px;
   text-align: left;
@@ -41,11 +41,11 @@
 
 .conteudo-dropdown a { 
   display: block;
-  padding: 10px;
+  padding: 0.77rem;
   text-decoration: none;
   color: black;
   cursor: pointer;
-  font-size:14px;
+  font-size:0.86rem;
 }
 
 .dropbtn { 
@@ -60,10 +60,9 @@
 }
 
 .logo{
-  width: 50px;
+  width: 48px;
   height: 35px;
   border-radius: 50%;
-  margin-right: 0.3rem; 
   transition: transform 0.3s ease;
 }
 .logo:hover {
@@ -109,7 +108,7 @@
   margin-left: 2vh;
   margin-right: 2vh;
   text-align: justify;
-  padding-top: 5px;
+  padding-top: 0.4rem;
 }
 .modal-conteudo li {
   margin-bottom: 1vh;
@@ -129,4 +128,37 @@
   right: 8px;
   cursor: pointer;
   padding: 0.3px 10px;
+}
+
+@media (max-width: 768px){
+  .navbar-fim h4 {
+    font-size: 0.85rem;
+    padding: 1.23vh 2.5vh;
+  }
+
+  .logo{
+    width: 40px;
+    height: 30px
+  }
+
+  .cor {
+    font-size: 0.85rem;
+}
+
+  .dropbtn { 
+    font-size: 0.8rem;
+    width: 2rem;
+    height: 1.4rem;
+}
+
+  .navbar-linha {
+    padding: 3.05vh; 
+}
+
+  .conteudo-dropdown a { 
+    padding: 0.55rem;
+    font-size:0.83rem;
+}
+
+
 }

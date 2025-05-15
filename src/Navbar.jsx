@@ -31,7 +31,9 @@ function Navbar(){
                         {abrirMenu && (
                             <div className='conteudo-dropdown'>
                                 <a onClick={irParaHome}>🏠 Página Principal</a>
-                                <a onClick={() => setMostrarModal(true)}>❔ Sobre o site</a>
+                                <a onClick={() => setMostrarModal(true)}>❔ Sobre o Site</a>
+                                <a onClick={() => {document.getElementById('scrol-contato').scrollIntoView({ behavior: 'smooth', block: 'center' }); setTimeout(() => {alert("Entre em contato comigo para relatar o problema no site.");}, 350); 
+                                }}>⚠️ Relatar Problemas</a>
                             </div>
                         )}
                     </div>

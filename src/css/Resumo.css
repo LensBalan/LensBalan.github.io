@@ -11,8 +11,8 @@
 }
 .boas-vindas p {
   text-align: justify;
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-left: 20rem;
+  margin-right: 20rem;
 }
 
 #lens{
@@ -97,6 +97,8 @@
   #texto-resumo {
   text-indent: 0em !important;
   font-size: 1rem !important; 
+  border-bottom-right-radius: 0% !important;
+  border-top-left-radius: 0% !important;
 }
 
 .texto-sublinado {
@@ -104,9 +106,13 @@
 }
 
 .boas-vindas p {
-  margin-left: 11vw;
-  margin-right: 11vw;
+    margin-left: 11vw;
+    margin-right: 11vw;
 }
+
+.imagem-lens {
+    margin-bottom: -1rem !important;
+  }
 
 }
 
@@ -144,7 +150,7 @@
 
 #texto-resumo {
   text-indent: 2.8em;
-  font-size: 1.27rem;
+  font-size: 1.21rem;
   line-height: 1.5;
   background-color: rgba(166, 196, 176, 0.1);
   border-bottom-right-radius: 10%;

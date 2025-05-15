@@ -8,7 +8,7 @@ function Contato(){
     return (
         <>
         <ScrollTela>
-            <div className="div-contato">
+            <div id='scrol-contato' className="div-contato">
                 <h3 className="sub-titulos">📞Contate-me</h3>
             </div>
             <div className="div-contato-images">
