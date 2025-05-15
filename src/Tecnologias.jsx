@@ -6,7 +6,7 @@ function Tecnologias(){
         <>
         <ScrollTela>
             <div className="div-contato">
-                <h3 className="sub-titulos" style={{marginTop:'1.85rem'}}>⚙️Tecnologias já Trabalhadas</h3>
+                <h3 className="sub-titulos sub-titulo-longo" style={{marginTop:'1.85rem'}}>⚙️Tecnologias já Trabalhadas</h3>
             </div>
             <div className="div-tecnologias">
                 <div className='tecno'>

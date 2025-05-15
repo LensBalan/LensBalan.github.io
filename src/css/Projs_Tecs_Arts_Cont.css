@@ -437,11 +437,6 @@
 
 @media (max-width: 768px){
   
-  .div-projetos {
-    flex: 45%;
-    gap: 1.8rem;
-  }
-
    .ft-tecnologias {
     flex: 1 1 22%; /* até 4 por linha */
     margin-top: 0.5rem;
@@ -458,54 +453,16 @@
     gap: 0.6rem;
 }
 
-  .card {
-    width: 190px;
-    height: 290px;
-  }
-
-  .bg {
-    width: 180px;
-    height: 280px;
-  }
-
-  .blob {
-    width: 160px;
-    height: 180px;
-  }
-
-  .titulo-projeto {
-    font-size: 1.04em;
-}
-
-.sub-titulo-projeto {
-    font-size: 0.94em;
-}
-
-.img-projetos {
-    width: 100px;
-    height: 100px;
-}
-.button-projetos {
-    margin-top: 0.18rem;
-    font-size: 0.8rem;
-    margin-bottom: 0.18rem;
- }
-
- .ft-tecnologias{
-    width: 87px;
-    height: 87px;
-    max-width: 87px;
-    max-height: 87px;  
- }
-
   .div-tecnologias{
     margin-top: 2.4rem;
-    gap: 1.3rem;
-    max-width: 500px;
+    gap: 1.4rem;
 }
 
-.frase-lens .frase {
+  .frase-lens .frase {
     font-size: 0.85rem;
 }
+  .sub-titulo-longo{
+    font-size: 1.3rem;
+  }
 
 }
