@@ -25,7 +25,7 @@ function Artigos(){
                     <h4 className="sub-titulo-projeto fundo-artigos">Meu TCC da Unioeste, curso: Ciência da Computação</h4>
                     <img className="img-projetos" alt="conhecimento 2" src="/images/cc.png"></img>
                     <br/>
-                    <a href="/src/assets/TCC_Final_Leonardo_Balan.pdf" target="_blank">
+                    <a href="/images/TCC_Final_Leonardo_Balan.pdf" target="_blank">
                         <button className="button-github" style={{marginTop: '0.8rem'}}>Ver</button>       
                     </a>       
                 </div>

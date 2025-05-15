@@ -28,7 +28,7 @@ function Contato(){
                 <a href="https://www.linkedin.com/in/leonardo-balan" target="_blank">
                     <img alt="Meu Linkedin" src="/images/linkedin.png" className="icon"></img>
                 </a>
-                <a href="/src/assets/Currículo.pdf" target="_blank">
+                <a href="/images/Currículo.pdf" target="_blank">
                     <button className='buttons'>
                     <span class="transition"></span>
                     <span class="gradient"></span>
