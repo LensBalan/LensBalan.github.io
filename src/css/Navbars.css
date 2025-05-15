@@ -140,19 +140,6 @@
     padding: 4vh 2.5vh;
   }
 
-  .logo{
-    width: 40px;
-    height: 30px
-  }
-
-  .cor {
-    font-size: 0.85rem;
-}
-
-  .navbar-linha {
-    padding: 3.05vh; 
-}
-
   .conteudo-dropdown a { 
     padding: 0.55rem;
     font-size:0.83rem;
