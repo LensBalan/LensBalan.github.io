@@ -400,41 +400,6 @@
   z-index: 5;
 }
 
-@media (max-width: 700px){
-
-  .mostrar-contato-gmail {
-    top: -25px;
-    left: 10%;
-    transform: translateX(-55%);
-    font-size: 10px;
-    padding: 1px 1px;
-  }
-
-  .mostrar-contato-wats {
-    top: -24px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 10px;
-    padding: 1px 1px;
-  }
-
-  #fechar-gmail {
-    top: -47px;
-    left: 123%;
-    font-size: 10px;
-    transform: translateX(-50%);
-    padding: 1px 3px;
-  }
-
-  #fechar-wats {
-    position: absolute;
-    top: -46px;
-    font-size: 10px;
-    left: -37%;
-    padding: 1px 3px;
-  }
-} 
-
 @media (max-width: 768px){
   
    .ft-tecnologias {
@@ -462,6 +427,38 @@
 }
   .sub-titulo-longo{
     font-size: 1.3rem;
+  }
+
+  .mostrar-contato-gmail {
+    top: -25px;
+    left: -5%;
+    transform: translateX(-55%);
+    font-size: 10px;
+    padding: 1px 1px;
+  }
+
+  .mostrar-contato-wats {
+    top: -24px;
+    left: 60%;
+    transform: translateX(-50%);
+    font-size: 10px;
+    padding: 1px 1px;
+  }
+
+  #fechar-gmail {
+    top: -47px;
+    left: 1%;
+    font-size: 10px;
+    transform: translateX(-50%);
+    padding: 1px 3px;
+  }
+
+  #fechar-wats {
+    position: absolute;
+    top: -46px;
+    font-size: 10px;
+    left: 25%;
+    padding: 1px 3px;
   }
 
 }

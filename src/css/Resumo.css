@@ -11,8 +11,8 @@
 }
 .boas-vindas p {
   text-align: justify;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  margin-left: 30vh;
+  margin-right: 30vh;
 }
 
 #lens{
@@ -81,6 +81,31 @@
   transform: scale(1.2) rotate(2deg);
 }
 
+.texto-bounce {
+  animation: bounce 2.5s ease;
+}
+
+.resumo {
+  margin-top: 3.5rem;
+}
+
+#texto-resumo {
+  text-indent: 2.8em;
+  font-size: 1.21rem;
+  line-height: 1.5;
+  background-color: rgba(166, 196, 176, 0.1);
+  border-bottom-right-radius: 10%;
+  border-top-left-radius: 10%;
+}
+
+.texto-sublinado {
+  font-size: 1.27rem;
+  line-height: 1.5;
+  font-family: "Sansation", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #2a6526;
+}
 
 @media (max-width: 768px) {
 
@@ -138,30 +163,5 @@
       border-radius: 0;
       color: inherit;
     }
-}
 
-.texto-bounce {
-  animation: bounce 2.5s ease;
-}
-
-.resumo {
-  margin-top: 3.5rem;
-}
-
-#texto-resumo {
-  text-indent: 2.8em;
-  font-size: 1.21rem;
-  line-height: 1.5;
-  background-color: rgba(166, 196, 176, 0.1);
-  border-bottom-right-radius: 10%;
-  border-top-left-radius: 10%;
-}
-
-.texto-sublinado {
-  font-size: 1.27rem;
-  line-height: 1.5;
-  font-family: "Sansation", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  color: #2a6526;
 }
