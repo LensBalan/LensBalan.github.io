@@ -67,7 +67,7 @@ function Projetos(){
                             </div>
                         )}
                         <br/>
-                        <a href="" target="_blank">
+                        <a onClick={() => alert("Repositório em desenvolvimento...")}>
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
                             </button>
