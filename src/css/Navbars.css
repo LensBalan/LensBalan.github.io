@@ -12,6 +12,8 @@
   
  background-color: rgba(50, 136, 69, 0.5);
   backdrop-filter: blur(10px);
+
+  animation: aparecer 2.5s ease;
 }
 
 .navbar-fim {

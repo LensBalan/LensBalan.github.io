@@ -24,6 +24,7 @@ function Navbar(){
         <div>
             <nav>
                 <div className="navbar-linha">
+                    
                     <img alt='Foto do Lens' src="/images/Logo.png" className='logo'></img>
                     <h4 className='fonte-titulos cor'style={{marginLeft:'auto', marginRight:'auto'}}>Portfólio Dev</h4>
                     <div className='dropdown'>
@@ -37,6 +38,7 @@ function Navbar(){
                             </div>
                         )}
                     </div>
+                    
                 </div>
             </nav>
             {mostrarModal && (
@@ -47,7 +49,7 @@ function Navbar(){
                         <h4>Este site foi implementado com as seguintes tecnologias:</h4>  
                         <ul className='fonte-texto'>
                             <li><span>Vite</span> como ferramenta de construção e servidor de desenvolvimento;</li>
-                            <li><span>React</span> como framework/biblioteca;</li>
+                            <li><span>React</span> como framework / biblioteca;</li>
                             <li><span>JavaScript + HTML (JSX)</span> e <span>CSS (puro)</span>;</li>
                             <li><span>UIverse</span> para os modelos dos botões e cards dos projetos;</li>
                             <li><span>Freepik</span> para algumas das fotos colocadas nos cards dos projetos.</li>
