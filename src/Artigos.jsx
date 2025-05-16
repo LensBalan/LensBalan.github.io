@@ -22,7 +22,7 @@ function Artigos(){
             </div>
             <div className="card">
                 <div class="bg bg_projeto">
-                    <h4 className="sub-titulo-projeto fundo-artigos">Meu TCC da Unioeste, curso: Ciência da Computação</h4>
+                    <h4 className="sub-titulo-projeto fundo-artigos">Meu TCC da Unioeste, Ciência da Computação</h4>
                     <img className="img-projetos" alt="conhecimento 2" src="/images/cc.png"></img>
                     <br/>
                     <a href="/images/TCC_Final_Leonardo_Balan.pdf" target="_blank">

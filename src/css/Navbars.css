@@ -13,7 +13,7 @@
  background-color: rgba(50, 136, 69, 0.5);
   backdrop-filter: blur(10px);
 
-  animation: aparecer 2.5s ease;
+  animation: aparecer 2s ease;
 }
 
 .navbar-fim {

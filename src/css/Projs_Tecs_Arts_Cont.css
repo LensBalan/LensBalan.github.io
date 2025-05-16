@@ -461,4 +461,48 @@
     padding: 1px 3px;
   }
 
+  .card {
+    width: 210px;
+    height: 290px;
+}
+
+.bg {
+    width: 200px;
+    height: 280px;
+}
+
+.blob {
+    width: 160px;
+    height: 180px;
+}
+
+.titulo-projeto {
+    font-size: 1.17em;
+    margin-bottom: 0.3rem;
+}
+
+.sub-titulo-projeto {
+    font-size: 1.05em;
+    margin-bottom: 0.35rem;
+}
+
+.img-projetos {
+    width: 105px;
+    height: 105px;
+    margin-bottom: 0.45rem;
+  }
+
+.button-projetos {
+    padding: 0.03rem;
+    margin-bottom: 0.07rem;
+    font-size: 0.85rem;
+ }
+
+ .button-github {
+    width: 130px;
+    height: 40px;
+    font-size: 0.85rem;
+  }
+
+
 }
