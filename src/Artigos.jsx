@@ -10,7 +10,7 @@ function Artigos(){
         </div>
         <div className="div-projetos">
             <div className="card">
-                <div class="bg bg_projeto">
+                <div className="bg bg_projeto">
                     <h4 className="sub-titulo-projeto fundo-artigos">Como Resolver exercícios em JS no Becrowd</h4>
                     <img className="img-projetos" alt="Conhecimento 1" src="/images/becrowd.png"></img>
                     <br/>
@@ -18,10 +18,10 @@ function Artigos(){
                     Ver 
                     </button>              
                 </div>
-                <div class="blob"></div>
+                <div className="blob"></div>
             </div>
             <div className="card">
-                <div class="bg bg_projeto">
+                <div className="bg bg_projeto">
                     <h4 className="sub-titulo-projeto fundo-artigos">Meu TCC da Unioeste, Ciência da Computação</h4>
                     <img className="img-projetos" alt="conhecimento 2" src="/images/cc.png"></img>
                     <br/>
@@ -29,7 +29,7 @@ function Artigos(){
                         <button className="button-github" style={{marginTop: '0.8rem'}}>Ver</button>       
                     </a>       
                 </div>
-                <div class="blob"></div>
+                <div className="blob"></div>
             </div>
         </div>
         </ScrollTela>

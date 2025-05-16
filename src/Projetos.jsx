@@ -19,15 +19,15 @@ function Projetos(){
             </div>
             <div className="div-projetos">
                 <div className="card">
-                    <div class="bg bg_projeto">
+                    <div className="bg bg_projeto">
                         <h4 className="titulo-projeto">Projeto 1</h4>
                         <h4 className="sub-titulo-projeto">Lista de Tarefas em JS</h4>
                         <img className="img-projetos" alt="Projeto 1" src="/images/lista.jpg"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao(true)} className='button-projetos'> 
-                            <span class="shadow"></span>
-                            <span class="edge"></span>
-                            <span class="front">Descrição</span>
+                            <span className="shadow"></span>
+                            <span className="edge"></span>
+                            <span className="front">Descrição</span>
                         </button>
                         {abrirDescricao && (
                             <div className='modal-overlay-descricao' onClick={() => setAbrirDescricao(false)}> 
@@ -44,18 +44,18 @@ function Projetos(){
                             </button>
                         </a>                
                     </div>
-                    <div class="blob"></div>
+                    <div className="blob"></div>
                 </div>
                 <div className="card">
-                    <div class="bg bg_projeto">
+                    <div className="bg bg_projeto">
                         <h4 className="titulo-projeto">Projeto 2</h4>
                         <h4 className="sub-titulo-projeto">Problemas do Becrowd em JS</h4>
                         <img className="img-projetos" alt="Projeto 2" src="/images/bee.png"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao2(true)} className='button-projetos'> 
-                            <span class="shadow"></span>
-                            <span class="edge"></span>
-                            <span class="front">Descrição</span>
+                            <span className="shadow"></span>
+                            <span className="edge"></span>
+                            <span className="front">Descrição</span>
                         </button>
                         {abrirDescricao2 && (
                             <div className='modal-overlay-descricao' onClick={() => setAbrirDescricao2(false)}> 
@@ -73,18 +73,18 @@ function Projetos(){
                             </button>
                         </a>                
                     </div>
-                    <div class="blob"></div>
+                    <div className="blob"></div>
                 </div>
                 <div className="card">
-                    <div class="bg bg_projeto">
+                    <div className="bg bg_projeto">
                         <h4 className="titulo-projeto">Projeto 3</h4>
                         <h4 className="sub-titulo-projeto">Fill Poly - Preencher Polígonos</h4>
                         <img className="img-projetos" alt="Projeto 3" src="/images/poligonos.jpg"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao3(true)} className='button-projetos'> 
-                            <span class="shadow"></span>
-                            <span class="edge"></span>
-                            <span class="front">Descrição</span>
+                            <span className="shadow"></span>
+                            <span className="edge"></span>
+                            <span className="front">Descrição</span>
                         </button>
                         {abrirDescricao3 && (
                             <div className='modal-overlay-descricao' onClick={() => setAbrirDescricao3(false)}> 
@@ -101,18 +101,18 @@ function Projetos(){
                             </button>
                         </a>                
                     </div>
-                    <div class="blob"></div>
+                    <div className="blob"></div>
                 </div>
                 <div className="card">
-                    <div class="bg bg_projeto">
+                    <div className="bg bg_projeto">
                         <h4 className="titulo-projeto">Projeto 4</h4>
                         <h4 className="sub-titulo-projeto">Buscador de Repositórios GitHub</h4>
                         <img className="img-projetos" alt="Projeto 4" src="/images/git.jpg"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao4(true)} className='button-projetos'> 
-                            <span class="shadow"></span>
-                            <span class="edge"></span>
-                            <span class="front">Descrição</span>
+                            <span className="shadow"></span>
+                            <span className="edge"></span>
+                            <span className="front">Descrição</span>
                         </button>
                         {abrirDescricao4 && (
                             <div className='modal-overlay-descricao' onClick={() => setAbrirDescricao4(false)}> 
@@ -129,18 +129,18 @@ function Projetos(){
                             </button>
                         </a>                
                     </div>
-                    <div class="blob"></div>
+                    <div className="blob"></div>
                 </div>
                 <div className="card">
-                    <div class="bg bg_projeto">
+                    <div className="bg bg_projeto">
                         <h4 className="titulo-projeto">Projeto 5</h4>
                         <h4 className="sub-titulo-projeto">Conversor String to Int em Assembly</h4>
                         <img className="img-projetos" alt="Projeto 5" src="/images/assembly.jpg"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao5(true)} className='button-projetos'> 
-                            <span class="shadow"></span>
-                            <span class="edge"></span>
-                            <span class="front">Descrição</span>
+                            <span className="shadow"></span>
+                            <span className="edge"></span>
+                            <span className="front">Descrição</span>
                         </button>
                         {abrirDescricao5 && (
                             <div className='modal-overlay-descricao' onClick={() => setAbrirDescricao5(false)}> 
@@ -157,18 +157,18 @@ function Projetos(){
                             </button>
                         </a>                
                     </div>
-                    <div class="blob"></div>
+                    <div className="blob"></div>
                 </div>
                 <div className="card">
-                    <div class="bg bg_projeto">
+                    <div className="bg bg_projeto">
                         <h4 className="titulo-projeto">Projeto 6</h4>
                         <h4 className="sub-titulo-projeto">Algs. de Regressão - A. de Máquina</h4>
                         <img className="img-projetos" alt="Projeto 6" src="/images/regressao.jpg"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao6(true)} className='button-projetos'> 
-                            <span class="shadow"></span>
-                            <span class="edge"></span>
-                            <span class="front">Descrição</span>
+                            <span className="shadow"></span>
+                            <span className="edge"></span>
+                            <span className="front">Descrição</span>
                         </button>
                         {abrirDescricao6 && (
                             <div className='modal-overlay-descricao' onClick={() => setAbrirDescricao6(false)}> 
@@ -185,18 +185,18 @@ function Projetos(){
                             </button>
                         </a>                
                     </div>
-                    <div class="blob"></div>
+                    <div className="blob"></div>
                 </div>
                 <div className="card">
-                    <div class="bg bg_projeto">
+                    <div className="bg bg_projeto">
                         <h4 className="titulo-projeto">Projeto 7</h4>
                         <h4 className="sub-titulo-projeto">Leitor de imagens Fat-16 em C</h4>
                         <img className="img-projetos" alt="Projeto 7" src="/images/fat16.jpg"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao7(true)} className='button-projetos'> 
-                            <span class="shadow"></span>
-                            <span class="edge"></span>
-                            <span class="front">Descrição</span>
+                            <span className="shadow"></span>
+                            <span className="edge"></span>
+                            <span className="front">Descrição</span>
                         </button>
                         {abrirDescricao7 && (
                             <div className='modal-overlay-descricao' onClick={() => setAbrirDescricao7(false)}> 
@@ -213,18 +213,18 @@ function Projetos(){
                             </button>
                         </a>                
                     </div>
-                    <div class="blob"></div>
+                    <div className="blob"></div>
                 </div>
                 <div className="card">
-                    <div class="bg bg_projeto">
+                    <div className="bg bg_projeto">
                         <h4 className="titulo-projeto">Projeto 8</h4>
                         <h4 className="sub-titulo-projeto">Paralelização de Códigos em C</h4>
                         <img className="img-projetos" alt="Projeto 8" src="/images/paralel.png"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao8(true)} className='button-projetos'> 
-                            <span class="shadow"></span>
-                            <span class="edge"></span>
-                            <span class="front">Descrição</span>
+                            <span className="shadow"></span>
+                            <span className="edge"></span>
+                            <span className="front">Descrição</span>
                         </button>
                         {abrirDescricao8 && (
                             <div className='modal-overlay-descricao' onClick={() => setAbrirDescricao8(false)}> 
@@ -241,10 +241,10 @@ function Projetos(){
                             </button>
                         </a>                
                     </div>
-                    <div class="blob"></div>
+                    <div className="blob"></div>
                 </div>
                 <div className="card">
-                    <div class="bg bg_projeto">
+                    <div className="bg bg_projeto">
                         <h4 className="titulo-projeto">Meus Projetos📁</h4>
                          <h4 className="sub-titulo-projeto" style={{marginTop:'0.55rem'}}>Todos no Repositório Github Lens</h4>
                         <img className="img-projetos" alt="Projeto 7" src="/images/gitlens.jpg"></img>
@@ -255,7 +255,7 @@ function Projetos(){
                             </button>
                         </a>                
                     </div>
-                    <div class="blob"></div>
+                    <div className="blob"></div>
                 </div>
             </div>
             </ScrollTela>

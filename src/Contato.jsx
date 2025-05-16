@@ -30,9 +30,9 @@ function Contato(){
                 </a>
                 <a href="/images/Currículo.pdf" target="_blank">
                     <button className='buttons'>
-                    <span class="transition"></span>
-                    <span class="gradient"></span>
-                    <span class="label">Meu Currículo</span> 
+                    <span className="transition"></span>
+                    <span className="gradient"></span>
+                    <span className="label">Meu Currículo</span> 
                     </button>
                 </a>
                 <a href="https://www.instagram.com/lens.balan" target="_blank">

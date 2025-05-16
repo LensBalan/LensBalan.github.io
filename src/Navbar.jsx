@@ -5,13 +5,14 @@ import './css/Navbars.css'
 function Navbar(){
     const [abrirMenu, setabrirMenu] = useState(false);
     const [mostrarModal,setMostrarModal] = useState(false);
+   
     const navigate = useNavigate();
     const location = useLocation();
 
     const irParaHome = () => {
         if (location.pathname === "/") {
             if (window.scrollY === 0) {
-                alert("Você já está na Página Principal!");
+                alert("Você já está na Página Principal.");
             } else {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             }
@@ -20,13 +21,17 @@ function Navbar(){
         }
     };
 
+    const tituloNavbar = location.pathname === '/sobre'
+    ? 'Sobre Mim'
+    : 'Portfólio Dev';
+
     return (
         <div>
             <nav>
                 <div className="navbar-linha">
                     
                     <img alt='Foto do Lens' src="/images/Logo.png" className='logo'></img>
-                    <h4 className='fonte-titulos cor'style={{marginLeft:'auto', marginRight:'auto'}}>Portfólio Dev</h4>
+                    <h4 className='fonte-titulos cor'style={{marginLeft:'auto', marginRight:'auto'}}>{tituloNavbar}</h4>
                     <div className='dropdown'>
                         <button onClick={() => setabrirMenu(!abrirMenu)} className='dropbtn fonte-titulos cor'>▼</button>
                         {abrirMenu && (
