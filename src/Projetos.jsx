@@ -67,7 +67,7 @@ function Projetos(){
                             </div>
                         )}
                         <br/>
-                        <a onClick={() => alert("Repositório em desenvolvimento...")}>
+                        <a href="https://github.com/LensBalan/Exercicios-JS-Becrowd" target="_blank">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
                             </button>

@@ -35,8 +35,8 @@
 .div-flex {
   margin-top: 1.8rem;
   display: flex;
-  justify-content: center; /* Centraliza tudo no eixo horizontal */
-  align-items: center; /* Espaço entre texto e imagem */
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap; /* Mantém responsividade */
   margin-left: 6.7rem;
 
