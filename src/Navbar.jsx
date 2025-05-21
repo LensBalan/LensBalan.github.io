@@ -22,7 +22,7 @@ function Navbar(){
     };
 
     const tituloNavbar = location.pathname === '/sobre'
-    ? 'Sobre Mim'
+    ? 'Blog'
     : 'Portfólio Dev';
 
     return (

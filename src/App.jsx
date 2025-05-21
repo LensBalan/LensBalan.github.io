@@ -7,7 +7,8 @@ import Projetos from './Projetos.jsx'
 import NavbarFim from './NavbarFim.jsx'
 import Artigos from './Artigos.jsx'
 import Tecnologias from './Tecnologias.jsx'
-import SobreMim from './SobreMim.jsx'
+import MeuBlog from './MeuBlog.jsx'
+import ScrollTop from './ScrollTop';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function PaginaPrincipal() {
@@ -28,7 +29,8 @@ function MaisSobre() {
   return (
     <>
       <Navbar />
-      <SobreMim />
+      <MeuBlog />
+      <NavbarFim />
     </>
   );
 }
@@ -36,6 +38,7 @@ function MaisSobre() {
 function App() {
   return (
     <BrowserRouter>
+      <ScrollTop />
       <Routes>
         <Route path="/" element={<PaginaPrincipal />} />
         <Route path="/sobre" element={<MaisSobre />} />
