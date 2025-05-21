@@ -21,9 +21,13 @@ function Navbar(){
         }
     };
 
-    const tituloNavbar = location.pathname === '/sobre'
-    ? 'Blog'
-    : 'Portfólio Dev';
+    const titulos = {
+        '/blog' : 'Blog' ,
+        '/' : 'Portfólio Dev',
+        '/sobre' : 'Sobre Mim'
+    };
+    
+    const tituloNavbar = titulos[location.pathname] || 'Meu Site';
 
     return (
         <div>
