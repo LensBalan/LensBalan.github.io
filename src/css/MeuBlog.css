@@ -13,9 +13,11 @@ body {
     margin: 0 auto;         /* Centraliza a div */
     text-align: center;
     word-wrap: break-word;  /* Quebra palavras longas se necessário */
-    background: linear-gradient(to bottom, rgba(149, 161, 170, 0.2), rgba(146, 141, 174, 0.2));
+    background: linear-gradient(rgba(149, 161, 170, 0.2));
     padding:  1px 1px;
     margin-top: -1rem;
+    box-shadow: 20px 4px 40px rgba(94, 104, 121, 0.3), 6px 20px 40px rgba(94, 104, 121, 0.3), -20px -4px 40px rgba(94, 104, 121, 0.3), -6px -20px 40px rgba(207, 212, 221, 0.3);
+    border-radius: 2px;
 }
 
 #titulo {
@@ -43,7 +45,7 @@ body {
 }
 
 .div-infos {
-    margin-top: 4.6rem;
+    margin-top: 4rem;
     text-align:left;
     margin-left: 0;
 }
@@ -51,23 +53,27 @@ body {
 .titulo-infos {
     font-size: 1.4rem;
     color: #245521;
+    margin-bottom: 0.2rem;
 }
 
 .data-post {
     color: #333;
+    font-family: "Sansation", sans-serif;
+    font-weight: 600;
 }
 
 .descricao-infos{
     margin-top: 0.3rem;
     font-family: "Sansation", sans-serif;
     font-size: 1.1rem;
-    color: #2b3c29;
+    color: #333;
     font-weight: 500;
     font-style: normal;
+    text-align: justify;
 }
 
 .cada-info{
-    background-color: rgba(237, 237, 237, 0.9);
+    background-color: rgba(237, 237, 237, 1);
     border-radius: 10px;
     transition: transform 0.5s ease, shadow 0.4s ease;
     box-shadow: 2px 2px 6px rgba(72, 84, 75, 0.3), -1px -1px 3px rgba(82, 95, 85, 0.2);
@@ -81,18 +87,48 @@ body {
 }
 
 .general-infos{
-    max-width: 55vw;      
+    max-width: 50vw;      
     width: 100%;           
     margin: 0 auto;       
     text-align: center;
     word-wrap: break-word;  /* Quebra palavras longas se necessário */
     padding:  1px 1px;
     margin-top: -1rem;
+    margin-bottom: 3rem;
 }
 
 .ft-info-blog {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    width: 40vw;
-    height: 60vh;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+    width: 480px;
+    height: 400px;
+}
+
+.titulo-info-blog {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1.3vh 4.5vw;
+    border-radius: 7px;
+    color: #245521;
+    box-shadow: 3px 3px 6px #656e68, -2px -2px 6px #343d36;
+    transition: box-shadow 0.2s ease;
+    margin-bottom: 0.7rem;
+}
+.titulo-info-blog:hover {
+  box-shadow: 4px 4px 10px #5e7d67, -2px -2px 5px #a8d3b1;;
+}
+
+.titulo-e-emoji {
+    display: flex; /*Deixa na mesma linha*/
+    justify-content: space-between;
+}
+
+.texto-info {
+    text-align: justify;
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+    line-height: 1.7;
+    font-size: 1.1rem;
 }

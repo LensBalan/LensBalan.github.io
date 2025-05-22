@@ -21,10 +21,22 @@ function Navbar(){
         }
     };
 
+    const irParaBlog = () => {
+        if(location.pathname === "/blog"){
+            if(window.scrollY === 0) {
+                alert("Você já está na Página do Blog.")
+            } else {
+                window.scrollTo({top: 0, behavior: 'smooth'});
+            }
+        } else {
+            navigate('/blog');
+        }
+    };
+
     const titulos = {
         '/blog' : 'Blog' ,
         '/' : 'Portfólio Dev',
-        '/sobre' : 'Sobre Mim'
+        '/trajetoria' : 'Sobre Mim'
     };
     
     const tituloNavbar = titulos[location.pathname] || 'Meu Site';
@@ -41,6 +53,7 @@ function Navbar(){
                         {abrirMenu && (
                             <div className='conteudo-dropdown'>
                                 <a onClick={irParaHome}>🏠 Página Principal</a>
+                                <a onClick={irParaBlog}>📑 Meu Blog</a>
                                 <a onClick={() => setMostrarModal(true)}>❔ Sobre o Site</a>
                                 <a onClick={() => {document.getElementById('scrol-contato').scrollIntoView({ behavior: 'smooth', block: 'center' }); setTimeout(() => {alert("Entre em contato comigo para relatar o problema no site.");}, 350); 
                                 }}>⚠️ Relatar Problemas</a>

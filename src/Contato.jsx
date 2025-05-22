@@ -25,7 +25,7 @@ function Contato(){
                     
                 </div>
                 
-                <a href="https://www.linkedin.com/in/leonardo-balan" target="_blank">
+                <a href="https://www.linkedin.com/in/leonardo-balan" target="_blank" rel="noopener noreferrer">
                     <img alt="Meu Linkedin" src="/images/linkedin.png" className="icon"></img>
                 </a>
                 <a href="/images/Currículo.pdf" target="_blank">
@@ -35,7 +35,7 @@ function Contato(){
                     <span className="label">Meu Currículo</span> 
                     </button>
                 </a>
-                <a href="https://www.instagram.com/lens.balan" target="_blank">
+                <a href="https://www.instagram.com/lens.balan" target="_blank" rel="noopener noreferrer">
                     <img alt="Meu instagram" src="/images/instagram.png" className="icon"></img>
                 </a>
                 <div className="gmail-container">

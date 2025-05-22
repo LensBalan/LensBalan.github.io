@@ -38,7 +38,7 @@ function Projetos(){
                             </div>
                         )}
                         <br/>
-                        <a href="https://github.com/LensBalan/Lista-de-Tarefas" target="_blank">
+                        <a href="https://github.com/LensBalan/Lista-de-Tarefas" target="_blank" rel="noopener noreferrer">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
                             </button>
@@ -67,7 +67,7 @@ function Projetos(){
                             </div>
                         )}
                         <br/>
-                        <a href="https://github.com/LensBalan/Exercicios-JS-Becrowd" target="_blank">
+                        <a href="https://github.com/LensBalan/Exercicios-JS-Becrowd" target="_blank" rel="noopener noreferrer">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
                             </button>
@@ -95,7 +95,7 @@ function Projetos(){
                             </div>
                         )}
                         <br/>
-                        <a href="https://github.com/LensBalan/Fill-poly" target="_blank">
+                        <a href="https://github.com/LensBalan/Fill-poly" target="_blank" rel="noopener noreferrer">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
                             </button>
@@ -123,7 +123,7 @@ function Projetos(){
                             </div>
                         )}
                         <br/>
-                        <a href="https://github.com/LensBalan/Buscar-Repositorios-Github" target="_blank">
+                        <a href="https://github.com/LensBalan/Buscar-Repositorios-Github" target="_blank" rel="noopener noreferrer">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
                             </button>
@@ -151,7 +151,7 @@ function Projetos(){
                             </div>
                         )}
                         <br/>
-                        <a href="https://github.com/LensBalan/ConvertStringtoInt" target="_blank">
+                        <a href="https://github.com/LensBalan/ConvertStringtoInt" target="_blank" rel="noopener noreferrer">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
                             </button>
@@ -179,7 +179,7 @@ function Projetos(){
                             </div>
                         )}
                         <br/>
-                        <a href="https://github.com/LensBalan/Metodos-de-Regressao" target="_blank">
+                        <a href="https://github.com/LensBalan/Metodos-de-Regressao" target="_blank" rel="noopener noreferrer">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
                             </button>
@@ -207,7 +207,7 @@ function Projetos(){
                             </div>
                         )}
                         <br/>
-                        <a href="https://github.com/LensBalan/Leitor-FAT16" target="_blank">
+                        <a href="https://github.com/LensBalan/Leitor-FAT16" target="_blank" rel="noopener noreferrer">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
                             </button>
@@ -235,7 +235,7 @@ function Projetos(){
                             </div>
                         )}
                         <br/>
-                        <a href="https://github.com/LensBalan/Paralelizacao-de-Codigos-em-C" target="_blank">
+                        <a href="https://github.com/LensBalan/Paralelizacao-de-Codigos-em-C" target="_blank" rel="noopener noreferrer">
                             <button className="button-github" style={{marginTop:'1.2vh'}}>
                             Ver projeto no Github
                             </button>
@@ -249,7 +249,7 @@ function Projetos(){
                          <h4 className="sub-titulo-projeto" style={{marginTop:'0.55rem'}}>Todos no Repositório Github Lens</h4>
                         <img className="img-projetos" alt="Projeto 7" src="/images/gitlens.jpg"></img>
                         <br/>
-                        <a href="https://github.com/LensBalan" target="_blank">
+                        <a href="https://github.com/LensBalan" target="_blank" rel="noopener noreferrer">
                             <button className="button-github" style={{marginTop:'0.7rem'}}>
                            Ir
                             </button>

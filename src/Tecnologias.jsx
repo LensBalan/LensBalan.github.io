@@ -15,12 +15,15 @@ function Tecnologias(){
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="HTML" src="/images/html-5.png"></img>
+                    <span className='texto-tecnologia'>HTML</span>
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="CSS" src="/images/css-3.png"></img>
+                    <span className='texto-tecnologia'>CSS</span>
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="NodeJS" src="/images/nodejs.png"></img>
+                    <span className='texto-tecnologia'>NodeJS</span>
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="python" src="/images/python.png"></img>
@@ -28,6 +31,7 @@ function Tecnologias(){
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="C" src="/images/letra-c.png"></img>
+                    <span className='texto-tecnologia'>C</span>
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="React" src="/images/react.svg"></img>
@@ -39,6 +43,7 @@ function Tecnologias(){
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="Mysql" src="/images/mysql.png"></img>
+                    <span className='texto-tecnologia'>Mysql</span>
                 </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="Vite" src="/images/vite.svg"></img>

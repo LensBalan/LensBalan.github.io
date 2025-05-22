@@ -9,7 +9,7 @@ import Artigos from './Artigos.jsx'
 import Tecnologias from './Tecnologias.jsx'
 import MeuBlog from './MeuBlog.jsx'
 import ScrollTop from './ScrollTop';
-import SobreMim from './SobreMim.jsx';
+import Trajetoria from './Trajetoria.jsx';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function PaginaPrincipal() {
@@ -40,7 +40,7 @@ function Sobre() {
   return (
     <>
       <Navbar />
-      <SobreMim />
+      <Trajetoria />
 
     </>
   )
@@ -53,7 +53,7 @@ function App() {
       <Routes>
         <Route path="/" element={<PaginaPrincipal />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/sobre" element={<Sobre />} />
+        <Route path="/trajetoria" element={<Sobre />} />
       </Routes>
     </BrowserRouter>
   );
