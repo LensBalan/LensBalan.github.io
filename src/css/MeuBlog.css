@@ -93,15 +93,24 @@ body {
     text-align: center;
     word-wrap: break-word;  /* Quebra palavras longas se necessário */
     padding:  1px 1px;
-    margin-top: -1rem;
+    margin-top: -1.2rem;
     margin-bottom: 3rem;
 }
 
 .ft-info-blog {
-    margin-top: 1.8rem;
-    margin-bottom: 1.8rem;
     width: 480px;
     height: 400px;
+}
+
+.imagem-com-legenda {
+    margin-top: 1.8rem;
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+
+.legenda-foto {
+    font-size: 0.85em;
+    color: #666;
 }
 
 .titulo-info-blog {
@@ -131,4 +140,37 @@ body {
     color: #333333;
     line-height: 1.7;
     font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+
+    .general-infos{
+    max-width: 70vw;      
+    margin-top: -0.8rem;
+    margin-bottom: 2rem;
+}
+
+    .titulo-info-blog {
+    font-size: 1.7rem;
+    padding: 1vh 4.5vw;
+    margin-bottom: 0.7rem;
+}
+
+    .data-post {
+    font-size: 0.9rem;
+}
+
+    .ft-info-blog {
+    width: 340px;
+    height: 260px;
+    }
+
+    .legenda-foto {
+    font-size: 0.825em;
+}
+
+    .texto-info {
+    font-size: 1.05rem;
+}
+
 }
