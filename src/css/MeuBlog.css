@@ -183,8 +183,8 @@ h4 strong {
 @media (max-width: 768px) {
 
     .general-infos{
-    max-width: 70vw;      
-    margin-top: -0.8rem;
+    max-width: 75vw;      
+    margin-top: -1rem;
     margin-bottom: 2rem;
 }
 
