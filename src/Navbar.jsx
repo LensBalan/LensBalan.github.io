@@ -36,7 +36,7 @@ function Navbar(){
     const titulos = {
         '/blog' : 'Blog' ,
         '/' : 'Portfólio Dev',
-        '/trajetoria' : 'Sobre Mim'
+        '/trajetoria' : 'Trajetória'
     };
     
     const tituloNavbar = titulos[location.pathname] || 'Meu Site';
