@@ -1,6 +1,6 @@
 .boas-vindas {
   text-align: center;
-  margin-top: 0.85rem;
+  margin-top: 0.7rem;
 }
 .boas-vindas h1 {
   margin-bottom: 1.3rem;  
@@ -110,7 +110,7 @@
 @media (max-width: 768px) {
 
   .boas-vindas {
-    margin-top: -1.3rem;
+    margin-top: -1.5rem;
   }
 
   #lens {

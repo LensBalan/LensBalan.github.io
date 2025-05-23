@@ -37,6 +37,10 @@ function Tecnologias(){
                     <img className="ft-tecnologias" alt="React" src="/images/react.svg"></img>
                      <span className='texto-tecnologia'>React</span>
                 </div>
+                 <div className='tecno'>
+                    <img className="ft-tecnologias" alt="Git" src="/images/git.png"></img>
+                     <span className='texto-tecnologia'>Git</span>
+                </div>
                 <div className='tecno'>
                     <img className="ft-tecnologias" alt="PostgreSQL" src="/images/postgre.png"></img>
                      <span className='texto-tecnologia'>PostgreSQL</span>
