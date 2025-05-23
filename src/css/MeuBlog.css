@@ -183,7 +183,7 @@ h4 strong {
 @media (max-width: 768px) {
 
     .general-infos{
-    max-width: 75vw;      
+    max-width: 80vw;      
     margin-top: -1rem;
     margin-bottom: 2rem;
 }
@@ -212,7 +212,7 @@ h4 strong {
 }
 
     .general {
-    max-width: 80vw;     
+    max-width: 82vw;     
     margin-top: -1rem;
 }
 
@@ -226,7 +226,7 @@ h4 strong {
 }
 
     .div-infos {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
     .titulo-infos {
