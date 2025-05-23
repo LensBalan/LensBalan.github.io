@@ -171,11 +171,6 @@ h4 strong {
     margin-bottom: 0.7rem;
 }
 
-    .ft-info-blog {
-    width: 400px;
-    height: 320px;
-    }
-
      .legenda-foto {
     font-size: 0.825em;
 }
@@ -217,8 +212,8 @@ h4 strong {
 }
 
     .general {
-    max-width: 70vw;     
-    margin-top: -0.5rem;
+    max-width: 75vw;     
+    margin-top: -1rem;
 }
 
     #titulo {
