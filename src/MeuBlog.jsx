@@ -15,7 +15,7 @@ function MeuBlog() {
                 <div className="div-infos">
                     <div className="cada-info" onClick={() => navigate('/trajetoria')}>
                         <div className="titulo-e-emoji">
-                            <h2 className="titulo-infos">➡︎ Minha Trajetória na Computação ⬅︎</h2>
+                            <h2 className="titulo-infos">✦ Minha Trajetória na Computação</h2>
                             <h2 className="titulo-infos">🧑‍💻</h2>
                         </div>
                         <p className="data-post">Postado em: 22/05/2025</p>
@@ -25,7 +25,7 @@ function MeuBlog() {
                     </div>
                     <div className="cada-info" onClick={() => alert('Em Desenvolvimento...')}/*onClick={() => navigate('/sobre')}*/>
                         <div className="titulo-e-emoji">
-                            <h2 className="titulo-infos">➡︎ Um Pouco + Sobre Mim ⬅︎</h2>
+                            <h2 className="titulo-infos">✦ Um Pouco + Sobre Mim</h2>
                             <h2 className="titulo-infos">🧑‍💼</h2>
                         </div>
                         <p className="data-post">Em Desenvolvimento...</p>
@@ -35,7 +35,7 @@ function MeuBlog() {
                     </div>
                      <div className="cada-info" onClick={() => alert('Em Desenvolvimento...')}>
                         <div className="titulo-e-emoji">
-                            <h2 className="titulo-infos">➡︎ Como Resolver Problemas do Becrowd em JS ⬅︎</h2>
+                            <h2 className="titulo-infos">✦ Como Resolver Problemas do Becrowd em JS</h2>
                             <h2 className="titulo-infos">✅</h2>
                         </div>
                         <p className="data-post">Em Desenvolvimento...</p>
@@ -44,7 +44,7 @@ function MeuBlog() {
                         <h4 className="quant-info"><strong>Tempo de Leitura:</strong> x minutos</h4>
                     </div>
                     <div className="cada-info">
-                        <h2 className="titulo-infos">➡︎ Aumentarei o conteúdo do blog de tempos em tempos ⬅︎</h2>
+                        <h2 className="titulo-infos">✦ Aumentarei o conteúdo do blog de tempos em tempos</h2>
                         <p className="data-post">Em desenvolvimento...</p>
                         <h4 className="descricao-infos"></h4>
                     </div>
