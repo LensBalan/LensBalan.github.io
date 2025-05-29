@@ -37,7 +37,7 @@ function Navbar(){
         '/blog' : 'Blog' ,
         '/' : 'Portfólio Dev',
         '/trajetoria' : 'Trajetória',
-        '/problemasJS' : 'Problemas do Beecrowd em JS'
+        '/problemasJS' : 'Beecrowd em JS'
     };
     
     const tituloNavbar = titulos[location.pathname] || 'Meu Site';
