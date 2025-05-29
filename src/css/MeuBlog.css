@@ -202,7 +202,7 @@ h4 strong {
 
 .titulo-paragrafo {
     font-size: 1.6rem;
-    margin-bottom: 2.3rem;
+    margin-bottom: 1.8rem;
     margin-top: 3.1rem;
     color: #245521;
     text-decoration:underline;
@@ -243,8 +243,8 @@ h4 strong {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
 }
 .img-longa {
     width:750px;
@@ -390,10 +390,4 @@ h4 strong {
     height: 190px;
 }
 
-    #titulo-longo {
-        text-decoration: none;
-        text-decoration-thickness: 0em;
-        font-size: 1.4rem;
-        word-wrap: break-word;
-    }
 }
