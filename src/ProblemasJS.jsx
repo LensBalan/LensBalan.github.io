@@ -28,7 +28,7 @@ function ProblemasJS () {
             <ScrollTela>
             <div className="general-infos">
                 <h1 className="titulo-info-blog">Como Resolver Problemas em JavaScript no Beecrowd ✅</h1>
-                <p className="data-post">28/05/2025</p>
+                <p className="data-post">29/05/2025</p>
                 <div className="two-images">
                     <img alt="Beecrowd" src="/images/beecrowd-artigo.jpg"/>
                     <h1>+</h1>

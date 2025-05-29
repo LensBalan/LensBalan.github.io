@@ -23,15 +23,15 @@ function MeuBlog() {
                         <h4 className="quant-info"><strong>Quantidade de Palavras:</strong> 651</h4>
                         <h4 className="quant-info"><strong>Tempo de Leitura:</strong> 4 minutos</h4>
                     </div>
-                    <div className="cada-info" onClick={() => navigate('/problemasJS')/*alert('Em Desenvolvimento...')*/}>
+                    <div className="cada-info" onClick={() => navigate('/problemasJS')}>
                         <div className="titulo-e-emoji">
                             <h2 className="titulo-infos">✦ Como Resolver Problemas do Beecrowd em JS</h2>
                             <h2 className="titulo-infos">✅</h2>
                         </div>
-                        <p className="data-post">Em Desenvolvimento...</p>
+                        <p className="data-post">Postado em: 29/05/2025</p>
                         <h4 className="descricao-infos">Mostrarei de forma intuitiva como resolver e submeter problemas em JavaScript no Beecrowd. Às vezes isso pode ser um pouco complicado no início, pois o JavaScript não possui um comando explícito para entrada de dados pelo terminal. Por isso, aqui ajudarei.</h4>
-                        <h4 className="quant-info"><strong>Quantidade de Palavras:</strong> xxx</h4>
-                        <h4 className="quant-info"><strong>Tempo de Leitura:</strong> x minutos</h4>
+                        <h4 className="quant-info"><strong>Quantidade de Palavras:</strong> 793</h4>
+                        <h4 className="quant-info"><strong>Tempo de Leitura:</strong> 6 minutos</h4>
                     </div>
                     <div className="cada-info" onClick={() => alert('Em Desenvolvimento...')}/*onClick={() => navigate('/sobre')}*/>
                         <div className="titulo-e-emoji">

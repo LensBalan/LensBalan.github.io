@@ -56,7 +56,6 @@ function Navbar(){
         }
 }
 
-
     return (
         <div>
             <nav>

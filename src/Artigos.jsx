@@ -1,7 +1,9 @@
 import './css/Projs_Tecs_Arts_Cont.css'
 import ScrollTela from './ScrollTela';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 function Artigos(){
+    const navigate = useNavigate();
     return(
         <>
         <ScrollTela>
@@ -14,7 +16,7 @@ function Artigos(){
                     <h4 className="sub-titulo-projeto fundo-artigos">Como Resolver exercícios em JS no Beecrowd</h4>
                     <img className="img-projetos" alt="Conhecimento 1" src="/images/becrowd.png"></img>
                     <br/>
-                    <button onClick={() => alert("Artigo em Desenvolvimento...")} className="button-github" style={{marginTop: '0.8rem'}}>
+                    <button onClick={() => navigate('/problemasJS')} className="button-github" style={{marginTop: '0.8rem'}}>
                     Ver 
                     </button>              
                 </div>
