@@ -11,7 +11,7 @@ import MeuBlog from './MeuBlog.jsx'
 import ScrollTop from './ScrollTop';
 import Trajetoria from './Trajetoria.jsx';
 import ProblemasJS from './ProblemasJS.jsx'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 
 function PaginaPrincipal() {
   return (
@@ -58,7 +58,7 @@ function Problemas() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollTop />
       <Routes>
         <Route path="/" element={<PaginaPrincipal />} />
@@ -66,7 +66,7 @@ function App() {
         <Route path="/trajetoria" element={<Sobre />} />
         <Route path ="/problemasJS" element={<Problemas />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App
