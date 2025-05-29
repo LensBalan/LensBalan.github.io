@@ -51,7 +51,7 @@ function ProblemasJS () {
                 <p className="texto-info">Na minha primeira experiência querendo resolver os exercícios do Beecrowd com JavaScript, tive uma mini dor de cabeça: “Como eu resolvo esses exercícios na minha máquina?” Pois o JS não tem um comando em si para entrada de dados pelo terminal/teclado e, quem conhece, sabe que nos exercícios do Beecrowd geralmente a entrada de dados é obtida pelo próprio terminal.<br/><br/></p> 
                 <p className="texto-info">Num primeiro momento de estresse, resolvi não realizar esses exercícios simplesmente por esse fato. Dias depois, fui atrás de aprender como resolver aquilo e, hoje em dia, consigo utilizar na maior tranquilidade e vejo que é simples. <br/><br/> É esse conhecimento que trago hoje aqui para vocês.</p>
                 <section ref={topicosRef.topico2}></section>
-                <h3 className="titulo-paragrafo">2º Ferramentas Necessárias</h3>
+                <h3 id="titulo-longo">2º Ferramentas Necessárias</h3>
                 <p className="texto-info">Primeiramente, são necessárias duas ferramentas básicas: um editor de código (VS Code) e um ambiente de execução JavaScript fora de um navegador web, que é o Node.js. Caso já tenha as duas ferramentas instaladas e configuradas, pule para o próximo tópico.</p>
                 <section ref={topicosRef.topico21}></section>
                 <h3 className="titulo-paragrafo">2.1º VS Code</h3>
