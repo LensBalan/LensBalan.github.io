@@ -153,6 +153,92 @@ h4 strong {
     font-size: 1.1rem;
 }
 
+.topicos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.8rem;
+  gap: 1rem;
+  align-items: center; 
+  background-color: #ededed;
+  box-shadow: 3px 3px 6px #656e68, -2px -2px 6px #343d36;
+  padding: 1.5rem 2rem;
+  transition: box-shadow 0.2s ease;
+}
+.topicos:hover {
+  box-shadow: 4px 4px 10px #5e7d67, -2px -2px 5px #a8d3b1;;
+}
+
+.topicos a {
+  display: block;
+  width: 100%;
+  color: #333;
+  transition: color 0.1s ease;
+  text-align: left;
+  padding: 0.25rem; 
+  text-decoration: underline;
+}
+
+.topicos a:hover {
+  color: #245521;
+  cursor: pointer;
+}
+
+.nivel1 {
+    color:#101010;
+    font-size: 1.2rem;
+}
+
+.nivel2 {
+  margin-left: 3rem;
+  font-size: 1.1rem;
+  color: #302e2e;
+}
+
+.alinhamento-topicos {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+.titulo-paragrafo {
+    font-size: 1.6rem;
+    margin-bottom: 2.3rem;
+    margin-top: 3.1rem;
+    color: #245521;
+    text-decoration:underline;
+    text-underline-offset: 12px;
+    text-decoration-style:dotted;
+    text-decoration-color: #8EB897;
+    text-decoration-thickness: 0.30em;
+}
+
+.two-images {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.two-images img {
+    width: 355px;
+    height: 320px;
+}
+.images-artigo {
+    width: 450px;
+    height: 250px;
+}
+.cada-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.img-longa {
+    width:750px;
+    height:300px;
+}
+
 @media (max-width: 1000px) {
 
     .general-infos{
@@ -174,6 +260,11 @@ h4 strong {
     .texto-info {
     font-size: 1rem;
 }
+    .img-longa {
+    width:550px;
+    height:250px;
+}
+
 
 }
 @media (max-width: 768px) {
@@ -246,5 +337,44 @@ h4 strong {
     font-size: 0.8rem;
 }
 
+    .two-images {
+    gap: 1rem;
+}
+    .two-images img {
+    width: 180px;
+    height: 165px;
 }
 
+    .topicos {
+    gap: 1rem;
+    padding: 1.5rem 1.5rem;
+}
+
+    .topicos a {
+    padding: 0.25rem; 
+}
+
+    .nivel1 {
+     font-size: 1.1rem;
+}
+
+    .nivel2 {
+    font-size: 1rem;
+}
+
+    .titulo-paragrafo {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+    .img-longa {
+    width: 400px;
+    height: 230px;
+}
+
+    .images-artigo {
+    width: 350px;
+    height: 200px;
+}
+
+}

@@ -11,7 +11,7 @@ function Artigos(){
         <div className="div-projetos">
             <div className="card">
                 <div className="bg bg_projeto">
-                    <h4 className="sub-titulo-projeto fundo-artigos">Como Resolver exercícios em JS no Becrowd</h4>
+                    <h4 className="sub-titulo-projeto fundo-artigos">Como Resolver exercícios em JS no Beecrowd</h4>
                     <img className="img-projetos" alt="Conhecimento 1" src="/images/becrowd.png"></img>
                     <br/>
                     <button onClick={() => alert("Artigo em Desenvolvimento...")} className="button-github" style={{marginTop: '0.8rem'}}>

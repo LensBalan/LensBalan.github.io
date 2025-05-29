@@ -49,7 +49,7 @@ function Projetos(){
                 <div className="card">
                     <div className="bg bg_projeto">
                         <h4 className="titulo-projeto">Projeto 2</h4>
-                        <h4 className="sub-titulo-projeto">Problemas do Becrowd em JS</h4>
+                        <h4 className="sub-titulo-projeto">Problemas do Beecrowd em JS</h4>
                         <img className="img-projetos" alt="Projeto 2" src="/images/bee.png"></img>
                         <br/>
                         <button onClick={() => setAbrirDescricao2(true)} className='button-projetos'> 
@@ -61,7 +61,7 @@ function Projetos(){
                             <div className='modal-overlay-descricao' onClick={() => setAbrirDescricao2(false)}> 
                                 <div className='modal-conteudo-descricao' onClick={e => e.stopPropagation()}>
                                     <button id='fechar' onClick={() => setAbrirDescricao2(false)}>X</button>
-                                    <p>Um desafio que estou realizando aos poucos: Resolver todos os 334 problemas do Becrowd em JS.</p>
+                                    <p>Um desafio que estou realizando aos poucos: Resolver todos os 334 problemas do Beecrowd em JS.</p>
                                 </div>
 
                             </div>

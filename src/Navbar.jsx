@@ -36,10 +36,26 @@ function Navbar(){
     const titulos = {
         '/blog' : 'Blog' ,
         '/' : 'Portfólio Dev',
-        '/trajetoria' : 'Trajetória'
+        '/trajetoria' : 'Trajetória',
+        '/problemasJS' : 'Problemas do Beecrowd em JS'
     };
     
     const tituloNavbar = titulos[location.pathname] || 'Meu Site';
+
+    function relatarProblemas() {
+        if(location.pathname === "/"){
+        document.getElementById('scrol-contato').scrollIntoView({
+            behavior: 'smooth', 
+            block: 'center'     
+        });
+        setTimeout(() => {
+            alert("Entre em contato comigo para relatar o problema no site.");
+        }, 350);
+        }else{
+            alert("Entre em contato comigo para relatar o problema no site,\n na Página Principal tem meu contato.")
+        }
+}
+
 
     return (
         <div>
@@ -55,8 +71,7 @@ function Navbar(){
                                 <a onClick={irParaHome}>🏠 Página Principal</a>
                                 <a onClick={irParaBlog}>📑 Meu Blog</a>
                                 <a onClick={() => setMostrarModal(true)}>❔ Sobre o Site</a>
-                                <a onClick={() => {document.getElementById('scrol-contato').scrollIntoView({ behavior: 'smooth', block: 'center' }); setTimeout(() => {alert("Entre em contato comigo para relatar o problema no site.");}, 350); 
-                                }}>⚠️ Relatar Problemas</a>
+                                <a onClick={relatarProblemas}>⚠️ Relatar Problemas</a>
                             </div>
                         )}
                     </div>

@@ -10,6 +10,7 @@ import Tecnologias from './Tecnologias.jsx'
 import MeuBlog from './MeuBlog.jsx'
 import ScrollTop from './ScrollTop';
 import Trajetoria from './Trajetoria.jsx';
+import ProblemasJS from './ProblemasJS.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function PaginaPrincipal() {
@@ -46,6 +47,15 @@ function Sobre() {
   )
 }
 
+function Problemas() {
+  return (
+    <>
+      <Navbar />
+      <ProblemasJS />
+    </>
+  );
+}
+
 function App() {
   return (
     <BrowserRouter>
@@ -54,6 +64,7 @@ function App() {
         <Route path="/" element={<PaginaPrincipal />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/trajetoria" element={<Sobre />} />
+        <Route path ="/problemasJS" element={<Problemas />} />
       </Routes>
     </BrowserRouter>
   );
