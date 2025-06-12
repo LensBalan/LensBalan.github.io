@@ -1,0 +1,54 @@
+.pagina404 {
+  margin-top: -5rem;
+  background: #ededed;
+}
+
+.div404 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.div404 h1 {
+    padding: 20px;
+}
+
+.div404 h2 {
+    padding: 10px;
+    color: #333;
+}
+
+.buttons404 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.fonte-titulos-404 {
+    color: #1E4A1E;
+    text-shadow: 20px 20px 70px #bebebe, -20px -20px 70px #bebebe;
+    font-size: 2.5rem;
+}
+
+.img404 {
+    width: 400px;
+    height: 300px;
+}
+
+@media (max-width: 768px){
+  
+  .img404 {
+    width: 310px;
+    height: 250px;
+  }
+
+  .div404 h1 {
+    font-size: 1.9rem;
+  }
+
+  .div404 h2 {
+    font-size: 1.4rem;
+  }
+}

@@ -1,12 +1,7 @@
-body {
-    background: #ededed;
-    background: linear-gradient(180deg,rgba(237, 237, 237, 1) 65%, rgba(237, 237, 237, 1) 74%, rgba(255, 255, 255, 1) 100%);
-}
-
 .general {
     max-width: 55vw;      
     width: 100%;          
-    margin: 0 auto;         /*Centraliza a div*/
+    margin: 0 auto; /*Centraliza a div*/
     text-align: center;
     word-wrap: break-word;  /*Quebra palavras longas se necessário*/
     background: linear-gradient(rgba(149, 161, 170, 0.2));
@@ -76,7 +71,7 @@ body {
     font-size: 0.85rem;
 }
 
-h4 strong {
+.cada-info h4 strong {
     font-family: "Sansation", sans-serif;
     font-size: 0.85rem;
     color: #393838;
@@ -345,7 +340,7 @@ h4 strong {
     font-size: 0.8rem;
 }
 
-    h4 strong {
+    .cada-info h4 strong {
     font-size: 0.8rem;
 }
 

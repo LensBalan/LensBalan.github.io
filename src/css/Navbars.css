@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 2.3vh; /* 2% da altura em cima/baixo*/
+  padding: 2.3vh;
   justify-content:space-between; /*identação esquerda, meio e direita */
   z-index: 10;
   

@@ -10,7 +10,8 @@ import Tecnologias from './Tecnologias.jsx'
 import MeuBlog from './MeuBlog.jsx'
 import ScrollTop from './ScrollTop';
 import Trajetoria from './Trajetoria.jsx';
-import ProblemasJS from './ProblemasJS.jsx'
+import ProblemasJS from './ProblemasJS.jsx';
+import Pagina404 from './Pagina404.jsx';
 import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 
 function PaginaPrincipal() {
@@ -64,7 +65,8 @@ function App() {
         <Route path="/" element={<PaginaPrincipal />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/trajetoria" element={<Sobre />} />
-        <Route path ="/problemasJS" element={<Problemas />} />
+        <Route path="/problemasJS" element={<Problemas />} />
+        <Route path="*" element={<Pagina404 />} />
       </Routes>
     </HashRouter>
   );
