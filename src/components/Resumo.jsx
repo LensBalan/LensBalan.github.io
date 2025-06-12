@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import './css/Resumo.css'
+import '../css/Resumo.css'
 import ScrollTela from './ScrollTela';
 
 function Resumo(){

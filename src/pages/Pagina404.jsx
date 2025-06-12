@@ -1,4 +1,4 @@
-import './css/Pagina404.css';
+import '../css/Pagina404.css';
 import { useNavigate } from 'react-router-dom';
 
 function Pagina404 () {

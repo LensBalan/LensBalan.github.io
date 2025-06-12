@@ -1,17 +1,17 @@
 import './css/App.css'
 import './css/Animations.css'
-import Navbar from './Navbar.jsx'
-import Resumo from './Resumo.jsx'
-import Contato from './Contato.jsx'
-import Projetos from './Projetos.jsx'
-import NavbarFim from './NavbarFim.jsx'
-import Artigos from './Artigos.jsx'
-import Tecnologias from './Tecnologias.jsx'
-import MeuBlog from './MeuBlog.jsx'
-import ScrollTop from './ScrollTop';
-import Trajetoria from './Trajetoria.jsx';
-import ProblemasJS from './ProblemasJS.jsx';
-import Pagina404 from './Pagina404.jsx';
+import Navbar from './components/Navbar.jsx'
+import Resumo from './components/Resumo.jsx'
+import Contato from './components/Contato.jsx'
+import Projetos from './components/Projetos.jsx'
+import NavbarFim from './components/NavbarFim.jsx'
+import Artigos from './components/Artigos.jsx'
+import Tecnologias from './components/Tecnologias.jsx'
+import MeuBlog from './pages/MeuBlog.jsx'
+import ScrollTop from './components/ScrollTop.jsx';
+import Trajetoria from './pages/Trajetoria.jsx';
+import ProblemasJS from './pages/ProblemasJS.jsx';
+import Pagina404 from './pages/Pagina404.jsx';
 import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 
 function PaginaPrincipal() {

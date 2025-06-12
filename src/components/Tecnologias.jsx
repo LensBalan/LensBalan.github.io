@@ -1,4 +1,4 @@
-import './css/Projs_Tecs_Arts_Cont.css'
+import '../css/Projs_Tecs_Arts_Cont.css'
 import ScrollTela from './ScrollTela';
 
 function Tecnologias(){

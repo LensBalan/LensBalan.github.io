@@ -1,5 +1,5 @@
-import ScrollTela from "./ScrollTela";
-import './css/MeuBlog.css'
+import ScrollTela from "../components/ScrollTela";
+import '../css/MeuBlog.css'
 import { useNavigate } from 'react-router-dom';
 
 function MeuBlog() {

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom';
-import './css/Navbars.css'
+import '../css/Navbars.css'
 
 function Navbar(){
     const [abrirMenu, setabrirMenu] = useState(false);
