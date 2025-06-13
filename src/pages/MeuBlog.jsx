@@ -20,8 +20,8 @@ function MeuBlog() {
                         </div>
                         <p className="data-post">Postado em: 13/06/2025</p>
                         <h4 className="descricao-infos">Vou contar um pouco mais sobre mim, meus hobbies e algumas curiosidades sobre minha relação com a Computação. Tudo está dividido em tópicos específicos, tornando a leitura rápida e intuitiva. Um breve explanamento de gostos e da minha conexão com a tecnologia.</h4>
-                        <h4 className="quant-info"><strong>Quantidade de Palavras:</strong> 401</h4>
-                        <h4 className="quant-info"><strong>Tempo de Leitura:</strong> 2 minutos</h4>
+                        <h4 className="quant-info"><strong>Quantidade de Palavras:</strong> 431</h4>
+                        <h4 className="quant-info"><strong>Tempo de Leitura:</strong> 2:30 minutos</h4>
                     </div>
                     <div className="cada-info" onClick={() => navigate('/trajetoria')}>
                         <div className="titulo-e-emoji">

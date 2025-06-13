@@ -24,6 +24,7 @@ function SobreMim () {
                         <li>Anseio por me destacar na área em que trabalharei, entrar no mercado de trabalho e ir me aprofundando. É um bom caminho.</li>
                         <li>Gosto muito de games em geral, principalmente FPS, RTS, RPG e jogos com uma boa história. Meus games atuais que + jogo são: Counter-Strike 2, Total War: Warhammer 2 e Battlefield 1. Porém, já joguei inúmeros jogos e gostei muito, como FIFA, CS 1.6, The Witcher, Skyrim, Call of Duty, Clash Royale, etc.</li>
                         <li>Conheço diversas tecnologias, frameworks e linguagens de programação, acredito que me adaptaria bem em qualquer contexto de trabalho na área.</li>
+                        <li>Gosto de ler; alguns livros que já li na vida e apreciei bastante são: a franquia The Witcher, Dora Doralina, Jantar Secreto, Verity (indicação da minha namorada) e O Cortiço. Acredito que ainda lerei muitos no continuar da carruagem.</li>
                     </ul>
                     <p className="texto-info">Enfim, essas são algumas das minhas características mais pontuais. Tenho inúmeras outras. Caso queira me conhecer melhor, entre em contato comigo, marque uma entrevista, um fut, aquele vôlei de areia, algum evento, um game no sábado à noite… até quem sabe uma festa universitária.<br/><br/>Falou.<br/><br/></p>
                 </div>
