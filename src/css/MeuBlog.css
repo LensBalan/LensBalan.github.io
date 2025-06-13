@@ -108,6 +108,11 @@
     height: 400px;
 }
 
+#ft-sobre-mim {
+    width: 420px;
+    height: 470px;
+}
+
 .imagem-com-legenda {
     margin-top: 1.8rem;
     text-align: center;
@@ -246,6 +251,29 @@
     height:300px;
 }
 
+.lista-blog {
+  list-style: disc;
+}
+
+.lista-blog li {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.5rem;
+  border-left: 3px solid #20722aa6;
+  border-radius: 6px;
+  margin-bottom: 2.8rem;
+  background-color: rgba(50, 136, 69, 0.11);
+
+  text-align: justify;
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #333333;
+  line-height: 1.7;
+  font-size: 1.1rem
+}
+
 @media (max-width: 1000px) {
 
     .general-infos{
@@ -296,6 +324,11 @@
     width: 300px;
     height: 220px;
     }
+
+    #ft-sobre-mim {
+    width: 240px;
+    height: 300px;
+}
 
     .legenda-foto {
     font-size: 0.825em;
@@ -383,6 +416,10 @@
     .images-artigo {
     width: 300px;
     height: 190px;
+}
+
+    .lista-blog li {
+    font-size: 1rem
 }
 
 }

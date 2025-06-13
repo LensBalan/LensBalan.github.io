@@ -13,6 +13,16 @@ function MeuBlog() {
                     <h2 id="sub-titulo" className="fonte-titulos">Aqui, me proponho a compartilhar conhecimentos e um pouco mais sobre mim.</h2>
                 </div>
                 <div className="div-infos">
+                    <div className="cada-info" onClick={() => navigate('/sobreMim')}>
+                        <div className="titulo-e-emoji">
+                            <h2 className="titulo-infos">✦ Um Pouco + Sobre Mim</h2>
+                            <h2 className="titulo-infos">🧑‍💼</h2>
+                        </div>
+                        <p className="data-post">Postado em: 13/06/2025</p>
+                        <h4 className="descricao-infos">Vou contar um pouco mais sobre mim, meus hobbies e algumas curiosidades sobre minha relação com a Computação. Tudo está dividido em tópicos específicos, tornando a leitura rápida e intuitiva. Um breve explanamento de gostos e da minha conexão com a tecnologia.</h4>
+                        <h4 className="quant-info"><strong>Quantidade de Palavras:</strong> 401</h4>
+                        <h4 className="quant-info"><strong>Tempo de Leitura:</strong> 2 minutos</h4>
+                    </div>
                     <div className="cada-info" onClick={() => navigate('/trajetoria')}>
                         <div className="titulo-e-emoji">
                             <h2 className="titulo-infos">✦ Minha Trajetória na Computação</h2>
@@ -32,16 +42,6 @@ function MeuBlog() {
                         <h4 className="descricao-infos">Mostrarei de forma intuitiva como resolver e submeter problemas em JavaScript no Beecrowd. Às vezes isso pode ser um pouco complicado no início, pois o JavaScript não possui um comando explícito para entrada de dados pelo terminal. Por isso, aqui ajudarei.</h4>
                         <h4 className="quant-info"><strong>Quantidade de Palavras:</strong> 793</h4>
                         <h4 className="quant-info"><strong>Tempo de Leitura:</strong> 6 minutos</h4>
-                    </div>
-                    <div className="cada-info" onClick={() => alert('Em Desenvolvimento...')}/*onClick={() => navigate('/sobre')}*/>
-                        <div className="titulo-e-emoji">
-                            <h2 className="titulo-infos">✦ Um Pouco + Sobre Mim</h2>
-                            <h2 className="titulo-infos">🧑‍💼</h2>
-                        </div>
-                        <p className="data-post">Em Desenvolvimento...</p>
-                        <h4 className="descricao-infos">Vou contar um pouco mais sobre mim, minhas experiências, vivências, hobbies e muito mais. Compartilharei também o que mais me inspira e desperta vontade de aprender e criar quando o assunto é Computação e Tecnologia.</h4>
-                        <h4 className="quant-info"><strong>Quantidade de Palavras:</strong> xxx</h4>
-                        <h4 className="quant-info"><strong>Tempo de Leitura:</strong> x minutos</h4>
                     </div>
                     <div className="cada-info">
                         <h2 className="titulo-infos">✦ Aumentarei o conteúdo do blog de tempos em tempos</h2>

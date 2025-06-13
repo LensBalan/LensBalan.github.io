@@ -12,6 +12,7 @@ import ScrollTop from './components/ScrollTop.jsx';
 import Trajetoria from './pages/Trajetoria.jsx';
 import ProblemasJS from './pages/ProblemasJS.jsx';
 import Pagina404 from './pages/Pagina404.jsx';
+import SobreMim from './pages/SobreMim.jsx';
 import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 
 function PaginaPrincipal() {
@@ -43,7 +44,7 @@ function Sobre() {
     <>
       <Navbar />
       <Trajetoria />
-
+      <NavbarFim />
     </>
   )
 }
@@ -51,10 +52,21 @@ function Sobre() {
 function Problemas() {
   return (
     <>
-      <Navbar />
-      <ProblemasJS />
+        <Navbar />
+        <ProblemasJS />
+        <NavbarFim />
     </>
   );
+}
+
+function MaisSobreMim() {
+  return (
+    <>
+      <Navbar />
+      <SobreMim />
+      <NavbarFim />
+    </>
+  )
 }
 
 function App() {
@@ -66,6 +78,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/trajetoria" element={<Sobre />} />
         <Route path="/problemasJS" element={<Problemas />} />
+        <Route path='/sobreMim' element={<MaisSobreMim />} />
         <Route path="*" element={<Pagina404 />} />
       </Routes>
     </HashRouter>
